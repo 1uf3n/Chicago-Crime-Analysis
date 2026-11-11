@@ -1,0 +1,7 @@
+{
+  "start": "2020-01-01",
+  "end": "2026-11-01",
+  "page_size": 50000,
+  "endpoint": "https://data.cityofchicago.org/resource/ijzp-q8t2.json",
+  "boundaries": "https://data.cityofchicago.org/resource/igwz-8jzy.json"
+}

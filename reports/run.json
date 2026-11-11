@@ -1,0 +1,45 @@
+{
+  "run_id": "20261110T165005-0a21f3",
+  "snapshot": "data/raw/snapshot-2026-11-10",
+  "mode": "offline_replay",
+  "tasks": [
+    {
+      "task": "extract",
+      "dependencies": [],
+      "status": "success",
+      "seconds": 0.0
+    },
+    {
+      "task": "transform_load",
+      "dependencies": [
+        "extract"
+      ],
+      "status": "success",
+      "seconds": 6.2
+    },
+    {
+      "task": "validate",
+      "dependencies": [
+        "transform_load"
+      ],
+      "status": "success",
+      "seconds": 1.596
+    },
+    {
+      "task": "analyze",
+      "dependencies": [
+        "validate"
+      ],
+      "status": "success",
+      "seconds": 3.501
+    },
+    {
+      "task": "visualize",
+      "dependencies": [
+        "analyze"
+      ],
+      "status": "success",
+      "seconds": 0.048
+    }
+  ]
+}

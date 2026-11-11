@@ -1,0 +1,3299 @@
+{
+  "annual": [
+    {
+      "year": 2020,
+      "incidents": 179825,
+      "arrests": 29476
+    },
+    {
+      "year": 2021,
+      "incidents": 175115,
+      "arrests": 22808
+    },
+    {
+      "year": 2022,
+      "incidents": 199561,
+      "arrests": 24137
+    },
+    {
+      "year": 2023,
+      "incidents": 221027,
+      "arrests": 27006
+    },
+    {
+      "year": 2024,
+      "incidents": 220259,
+      "arrests": 30033
+    },
+    {
+      "year": 2025,
+      "incidents": 202106,
+      "arrests": 32902
+    },
+    {
+      "year": 2026,
+      "incidents": 195294,
+      "arrests": 30272
+    }
+  ],
+  "category_year": [
+    {
+      "year": 2020,
+      "primary_type": "ARSON",
+      "incidents": 499,
+      "arrests": 35
+    },
+    {
+      "year": 2020,
+      "primary_type": "ASSAULT",
+      "incidents": 15652,
+      "arrests": 2011
+    },
+    {
+      "year": 2020,
+      "primary_type": "BATTERY",
+      "incidents": 35812,
+      "arrests": 5999
+    },
+    {
+      "year": 2020,
+      "primary_type": "BURGLARY",
+      "incidents": 7591,
+      "arrests": 444
+    },
+    {
+      "year": 2020,
+      "primary_type": "CONCEALED CARRY LICENSE VIOLATION",
+      "incidents": 127,
+      "arrests": 123
+    },
+    {
+      "year": 2020,
+      "primary_type": "CRIM SEXUAL ASSAULT",
+      "incidents": 77,
+      "arrests": 3
+    },
+    {
+      "year": 2020,
+      "primary_type": "CRIMINAL DAMAGE",
+      "incidents": 21326,
+      "arrests": 1033
+    },
+    {
+      "year": 2020,
+      "primary_type": "CRIMINAL SEXUAL ASSAULT",
+      "incidents": 1090,
+      "arrests": 74
+    },
+    {
+      "year": 2020,
+      "primary_type": "CRIMINAL TRESPASS",
+      "incidents": 3640,
+      "arrests": 1526
+    },
+    {
+      "year": 2020,
+      "primary_type": "DECEPTIVE PRACTICE",
+      "incidents": 13746,
+      "arrests": 339
+    },
+    {
+      "year": 2020,
+      "primary_type": "GAMBLING",
+      "incidents": 22,
+      "arrests": 22
+    },
+    {
+      "year": 2020,
+      "primary_type": "HOMICIDE",
+      "incidents": 676,
+      "arrests": 317
+    },
+    {
+      "year": 2020,
+      "primary_type": "HUMAN TRAFFICKING",
+      "incidents": 7,
+      "arrests": 1
+    },
+    {
+      "year": 2020,
+      "primary_type": "INTERFERENCE WITH PUBLIC OFFICER",
+      "incidents": 580,
+      "arrests": 536
+    },
+    {
+      "year": 2020,
+      "primary_type": "INTIMIDATION",
+      "incidents": 142,
+      "arrests": 6
+    },
+    {
+      "year": 2020,
+      "primary_type": "KIDNAPPING",
+      "incidents": 107,
+      "arrests": 10
+    },
+    {
+      "year": 2020,
+      "primary_type": "LIQUOR LAW VIOLATION",
+      "incidents": 136,
+      "arrests": 136
+    },
+    {
+      "year": 2020,
+      "primary_type": "MOTOR VEHICLE THEFT",
+      "incidents": 8111,
+      "arrests": 410
+    },
+    {
+      "year": 2020,
+      "primary_type": "NARCOTICS",
+      "incidents": 6467,
+      "arrests": 6464
+    },
+    {
+      "year": 2020,
+      "primary_type": "NON-CRIMINAL",
+      "incidents": 1,
+      "arrests": 0
+    },
+    {
+      "year": 2020,
+      "primary_type": "OBSCENITY",
+      "incidents": 53,
+      "arrests": 44
+    },
+    {
+      "year": 2020,
+      "primary_type": "OFFENSE INVOLVING CHILDREN",
+      "incidents": 1793,
+      "arrests": 222
+    },
+    {
+      "year": 2020,
+      "primary_type": "OTHER NARCOTIC VIOLATION",
+      "incidents": 6,
+      "arrests": 4
+    },
+    {
+      "year": 2020,
+      "primary_type": "OTHER OFFENSE",
+      "incidents": 10742,
+      "arrests": 1534
+    },
+    {
+      "year": 2020,
+      "primary_type": "PROSTITUTION",
+      "incidents": 270,
+      "arrests": 268
+    },
+    {
+      "year": 2020,
+      "primary_type": "PUBLIC INDECENCY",
+      "incidents": 8,
+      "arrests": 8
+    },
+    {
+      "year": 2020,
+      "primary_type": "PUBLIC PEACE VIOLATION",
+      "incidents": 1180,
+      "arrests": 412
+    },
+    {
+      "year": 2020,
+      "primary_type": "ROBBERY",
+      "incidents": 6540,
+      "arrests": 499
+    },
+    {
+      "year": 2020,
+      "primary_type": "SEX OFFENSE",
+      "incidents": 891,
+      "arrests": 88
+    },
+    {
+      "year": 2020,
+      "primary_type": "STALKING",
+      "incidents": 168,
+      "arrests": 11
+    },
+    {
+      "year": 2020,
+      "primary_type": "THEFT",
+      "incidents": 35473,
+      "arrests": 2464
+    },
+    {
+      "year": 2020,
+      "primary_type": "WEAPONS VIOLATION",
+      "incidents": 6892,
+      "arrests": 4433
+    },
+    {
+      "year": 2021,
+      "primary_type": "ARSON",
+      "incidents": 440,
+      "arrests": 42
+    },
+    {
+      "year": 2021,
+      "primary_type": "ASSAULT",
+      "incidents": 17123,
+      "arrests": 1537
+    },
+    {
+      "year": 2021,
+      "primary_type": "BATTERY",
+      "incidents": 34237,
+      "arrests": 4861
+    },
+    {
+      "year": 2021,
+      "primary_type": "BURGLARY",
+      "incidents": 5209,
+      "arrests": 243
+    },
+    {
+      "year": 2021,
+      "primary_type": "CONCEALED CARRY LICENSE VIOLATION",
+      "incidents": 158,
+      "arrests": 153
+    },
+    {
+      "year": 2021,
+      "primary_type": "CRIMINAL DAMAGE",
+      "incidents": 20990,
+      "arrests": 776
+    },
+    {
+      "year": 2021,
+      "primary_type": "CRIMINAL SEXUAL ASSAULT",
+      "incidents": 1371,
+      "arrests": 82
+    },
+    {
+      "year": 2021,
+      "primary_type": "CRIMINAL TRESPASS",
+      "incidents": 2825,
+      "arrests": 839
+    },
+    {
+      "year": 2021,
+      "primary_type": "DECEPTIVE PRACTICE",
+      "incidents": 15621,
+      "arrests": 190
+    },
+    {
+      "year": 2021,
+      "primary_type": "GAMBLING",
+      "incidents": 12,
+      "arrests": 11
+    },
+    {
+      "year": 2021,
+      "primary_type": "HOMICIDE",
+      "incidents": 697,
+      "arrests": 254
+    },
+    {
+      "year": 2021,
+      "primary_type": "HUMAN TRAFFICKING",
+      "incidents": 11,
+      "arrests": 2
+    },
+    {
+      "year": 2021,
+      "primary_type": "INTERFERENCE WITH PUBLIC OFFICER",
+      "incidents": 263,
+      "arrests": 223
+    },
+    {
+      "year": 2021,
+      "primary_type": "INTIMIDATION",
+      "incidents": 105,
+      "arrests": 4
+    },
+    {
+      "year": 2021,
+      "primary_type": "KIDNAPPING",
+      "incidents": 72,
+      "arrests": 4
+    },
+    {
+      "year": 2021,
+      "primary_type": "LIQUOR LAW VIOLATION",
+      "incidents": 139,
+      "arrests": 139
+    },
+    {
+      "year": 2021,
+      "primary_type": "MOTOR VEHICLE THEFT",
+      "incidents": 8441,
+      "arrests": 295
+    },
+    {
+      "year": 2021,
+      "primary_type": "NARCOTICS",
+      "incidents": 4858,
+      "arrests": 4816
+    },
+    {
+      "year": 2021,
+      "primary_type": "NON-CRIMINAL",
+      "incidents": 3,
+      "arrests": 0
+    },
+    {
+      "year": 2021,
+      "primary_type": "OBSCENITY",
+      "incidents": 47,
+      "arrests": 31
+    },
+    {
+      "year": 2021,
+      "primary_type": "OFFENSE INVOLVING CHILDREN",
+      "incidents": 1703,
+      "arrests": 182
+    },
+    {
+      "year": 2021,
+      "primary_type": "OTHER NARCOTIC VIOLATION",
+      "incidents": 2,
+      "arrests": 1
+    },
+    {
+      "year": 2021,
+      "primary_type": "OTHER OFFENSE",
+      "incidents": 11873,
+      "arrests": 1294
+    },
+    {
+      "year": 2021,
+      "primary_type": "PROSTITUTION",
+      "incidents": 72,
+      "arrests": 71
+    },
+    {
+      "year": 2021,
+      "primary_type": "PUBLIC INDECENCY",
+      "incidents": 3,
+      "arrests": 3
+    },
+    {
+      "year": 2021,
+      "primary_type": "PUBLIC PEACE VIOLATION",
+      "incidents": 514,
+      "arrests": 199
+    },
+    {
+      "year": 2021,
+      "primary_type": "ROBBERY",
+      "incidents": 6241,
+      "arrests": 409
+    },
+    {
+      "year": 2021,
+      "primary_type": "SEX OFFENSE",
+      "incidents": 964,
+      "arrests": 73
+    },
+    {
+      "year": 2021,
+      "primary_type": "STALKING",
+      "incidents": 308,
+      "arrests": 21
+    },
+    {
+      "year": 2021,
+      "primary_type": "THEFT",
+      "incidents": 33152,
+      "arrests": 1257
+    },
+    {
+      "year": 2021,
+      "primary_type": "WEAPONS VIOLATION",
+      "incidents": 7661,
+      "arrests": 4796
+    },
+    {
+      "year": 2022,
+      "primary_type": "ARSON",
+      "incidents": 358,
+      "arrests": 34
+    },
+    {
+      "year": 2022,
+      "primary_type": "ASSAULT",
+      "incidents": 17583,
+      "arrests": 1716
+    },
+    {
+      "year": 2022,
+      "primary_type": "BATTERY",
+      "incidents": 34892,
+      "arrests": 5028
+    },
+    {
+      "year": 2022,
+      "primary_type": "BURGLARY",
+      "incidents": 6224,
+      "arrests": 319
+    },
+    {
+      "year": 2022,
+      "primary_type": "CONCEALED CARRY LICENSE VIOLATION",
+      "incidents": 147,
+      "arrests": 142
+    },
+    {
+      "year": 2022,
+      "primary_type": "CRIMINAL DAMAGE",
+      "incidents": 22524,
+      "arrests": 763
+    },
+    {
+      "year": 2022,
+      "primary_type": "CRIMINAL SEXUAL ASSAULT",
+      "incidents": 1487,
+      "arrests": 92
+    },
+    {
+      "year": 2022,
+      "primary_type": "CRIMINAL TRESPASS",
+      "incidents": 3553,
+      "arrests": 1046
+    },
+    {
+      "year": 2022,
+      "primary_type": "DECEPTIVE PRACTICE",
+      "incidents": 14267,
+      "arrests": 257
+    },
+    {
+      "year": 2022,
+      "primary_type": "GAMBLING",
+      "incidents": 9,
+      "arrests": 8
+    },
+    {
+      "year": 2022,
+      "primary_type": "HOMICIDE",
+      "incidents": 616,
+      "arrests": 271
+    },
+    {
+      "year": 2022,
+      "primary_type": "HUMAN TRAFFICKING",
+      "incidents": 16,
+      "arrests": 0
+    },
+    {
+      "year": 2022,
+      "primary_type": "INTERFERENCE WITH PUBLIC OFFICER",
+      "incidents": 346,
+      "arrests": 309
+    },
+    {
+      "year": 2022,
+      "primary_type": "INTIMIDATION",
+      "incidents": 145,
+      "arrests": 2
+    },
+    {
+      "year": 2022,
+      "primary_type": "KIDNAPPING",
+      "incidents": 98,
+      "arrests": 11
+    },
+    {
+      "year": 2022,
+      "primary_type": "LIQUOR LAW VIOLATION",
+      "incidents": 171,
+      "arrests": 168
+    },
+    {
+      "year": 2022,
+      "primary_type": "MOTOR VEHICLE THEFT",
+      "incidents": 15801,
+      "arrests": 460
+    },
+    {
+      "year": 2022,
+      "primary_type": "NARCOTICS",
+      "incidents": 4066,
+      "arrests": 3976
+    },
+    {
+      "year": 2022,
+      "primary_type": "NON-CRIMINAL",
+      "incidents": 4,
+      "arrests": 2
+    },
+    {
+      "year": 2022,
+      "primary_type": "OBSCENITY",
+      "incidents": 44,
+      "arrests": 27
+    },
+    {
+      "year": 2022,
+      "primary_type": "OFFENSE INVOLVING CHILDREN",
+      "incidents": 1761,
+      "arrests": 170
+    },
+    {
+      "year": 2022,
+      "primary_type": "OTHER NARCOTIC VIOLATION",
+      "incidents": 5,
+      "arrests": 2
+    },
+    {
+      "year": 2022,
+      "primary_type": "OTHER OFFENSE",
+      "incidents": 12478,
+      "arrests": 1809
+    },
+    {
+      "year": 2022,
+      "primary_type": "PROSTITUTION",
+      "incidents": 263,
+      "arrests": 260
+    },
+    {
+      "year": 2022,
+      "primary_type": "PUBLIC INDECENCY",
+      "incidents": 5,
+      "arrests": 4
+    },
+    {
+      "year": 2022,
+      "primary_type": "PUBLIC PEACE VIOLATION",
+      "incidents": 619,
+      "arrests": 274
+    },
+    {
+      "year": 2022,
+      "primary_type": "ROBBERY",
+      "incidents": 7224,
+      "arrests": 454
+    },
+    {
+      "year": 2022,
+      "primary_type": "SEX OFFENSE",
+      "incidents": 1097,
+      "arrests": 92
+    },
+    {
+      "year": 2022,
+      "primary_type": "STALKING",
+      "incidents": 367,
+      "arrests": 21
+    },
+    {
+      "year": 2022,
+      "primary_type": "THEFT",
+      "incidents": 45754,
+      "arrests": 1660
+    },
+    {
+      "year": 2022,
+      "primary_type": "WEAPONS VIOLATION",
+      "incidents": 7637,
+      "arrests": 4760
+    },
+    {
+      "year": 2023,
+      "primary_type": "ARSON",
+      "incidents": 427,
+      "arrests": 48
+    },
+    {
+      "year": 2023,
+      "primary_type": "ASSAULT",
+      "incidents": 19054,
+      "arrests": 1951
+    },
+    {
+      "year": 2023,
+      "primary_type": "BATTERY",
+      "incidents": 37284,
+      "arrests": 5856
+    },
+    {
+      "year": 2023,
+      "primary_type": "BURGLARY",
+      "incidents": 6191,
+      "arrests": 382
+    },
+    {
+      "year": 2023,
+      "primary_type": "CONCEALED CARRY LICENSE VIOLATION",
+      "incidents": 169,
+      "arrests": 160
+    },
+    {
+      "year": 2023,
+      "primary_type": "CRIMINAL DAMAGE",
+      "incidents": 25221,
+      "arrests": 808
+    },
+    {
+      "year": 2023,
+      "primary_type": "CRIMINAL SEXUAL ASSAULT",
+      "incidents": 1545,
+      "arrests": 88
+    },
+    {
+      "year": 2023,
+      "primary_type": "CRIMINAL TRESPASS",
+      "incidents": 3924,
+      "arrests": 1095
+    },
+    {
+      "year": 2023,
+      "primary_type": "DECEPTIVE PRACTICE",
+      "incidents": 14990,
+      "arrests": 672
+    },
+    {
+      "year": 2023,
+      "primary_type": "GAMBLING",
+      "incidents": 14,
+      "arrests": 14
+    },
+    {
+      "year": 2023,
+      "primary_type": "HOMICIDE",
+      "incidents": 543,
+      "arrests": 233
+    },
+    {
+      "year": 2023,
+      "primary_type": "HUMAN TRAFFICKING",
+      "incidents": 13,
+      "arrests": 0
+    },
+    {
+      "year": 2023,
+      "primary_type": "INTERFERENCE WITH PUBLIC OFFICER",
+      "incidents": 486,
+      "arrests": 422
+    },
+    {
+      "year": 2023,
+      "primary_type": "INTIMIDATION",
+      "incidents": 215,
+      "arrests": 1
+    },
+    {
+      "year": 2023,
+      "primary_type": "KIDNAPPING",
+      "incidents": 118,
+      "arrests": 4
+    },
+    {
+      "year": 2023,
+      "primary_type": "LIQUOR LAW VIOLATION",
+      "incidents": 155,
+      "arrests": 153
+    },
+    {
+      "year": 2023,
+      "primary_type": "MOTOR VEHICLE THEFT",
+      "incidents": 24771,
+      "arrests": 654
+    },
+    {
+      "year": 2023,
+      "primary_type": "NARCOTICS",
+      "incidents": 4517,
+      "arrests": 4412
+    },
+    {
+      "year": 2023,
+      "primary_type": "NON-CRIMINAL",
+      "incidents": 2,
+      "arrests": 0
+    },
+    {
+      "year": 2023,
+      "primary_type": "OBSCENITY",
+      "incidents": 36,
+      "arrests": 20
+    },
+    {
+      "year": 2023,
+      "primary_type": "OFFENSE INVOLVING CHILDREN",
+      "incidents": 1564,
+      "arrests": 159
+    },
+    {
+      "year": 2023,
+      "primary_type": "OTHER NARCOTIC VIOLATION",
+      "incidents": 2,
+      "arrests": 0
+    },
+    {
+      "year": 2023,
+      "primary_type": "OTHER OFFENSE",
+      "incidents": 13092,
+      "arrests": 2050
+    },
+    {
+      "year": 2023,
+      "primary_type": "PROSTITUTION",
+      "incidents": 196,
+      "arrests": 186
+    },
+    {
+      "year": 2023,
+      "primary_type": "PUBLIC INDECENCY",
+      "incidents": 3,
+      "arrests": 3
+    },
+    {
+      "year": 2023,
+      "primary_type": "PUBLIC PEACE VIOLATION",
+      "incidents": 742,
+      "arrests": 331
+    },
+    {
+      "year": 2023,
+      "primary_type": "ROBBERY",
+      "incidents": 9046,
+      "arrests": 553
+    },
+    {
+      "year": 2023,
+      "primary_type": "SEX OFFENSE",
+      "incidents": 1205,
+      "arrests": 90
+    },
+    {
+      "year": 2023,
+      "primary_type": "STALKING",
+      "incidents": 456,
+      "arrests": 30
+    },
+    {
+      "year": 2023,
+      "primary_type": "THEFT",
+      "incidents": 47643,
+      "arrests": 2303
+    },
+    {
+      "year": 2023,
+      "primary_type": "WEAPONS VIOLATION",
+      "incidents": 7403,
+      "arrests": 4328
+    },
+    {
+      "year": 2024,
+      "primary_type": "ARSON",
+      "incidents": 419,
+      "arrests": 36
+    },
+    {
+      "year": 2024,
+      "primary_type": "ASSAULT",
+      "incidents": 20140,
+      "arrests": 2158
+    },
+    {
+      "year": 2024,
+      "primary_type": "BATTERY",
+      "incidents": 39172,
+      "arrests": 6632
+    },
+    {
+      "year": 2024,
+      "primary_type": "BURGLARY",
+      "incidents": 6894,
+      "arrests": 393
+    },
+    {
+      "year": 2024,
+      "primary_type": "CONCEALED CARRY LICENSE VIOLATION",
+      "incidents": 170,
+      "arrests": 166
+    },
+    {
+      "year": 2024,
+      "primary_type": "CRIMINAL DAMAGE",
+      "incidents": 24202,
+      "arrests": 933
+    },
+    {
+      "year": 2024,
+      "primary_type": "CRIMINAL SEXUAL ASSAULT",
+      "incidents": 1480,
+      "arrests": 79
+    },
+    {
+      "year": 2024,
+      "primary_type": "CRIMINAL TRESPASS",
+      "incidents": 4121,
+      "arrests": 1168
+    },
+    {
+      "year": 2024,
+      "primary_type": "DECEPTIVE PRACTICE",
+      "incidents": 13990,
+      "arrests": 464
+    },
+    {
+      "year": 2024,
+      "primary_type": "GAMBLING",
+      "incidents": 18,
+      "arrests": 18
+    },
+    {
+      "year": 2024,
+      "primary_type": "HOMICIDE",
+      "incidents": 517,
+      "arrests": 212
+    },
+    {
+      "year": 2024,
+      "primary_type": "HUMAN TRAFFICKING",
+      "incidents": 15,
+      "arrests": 0
+    },
+    {
+      "year": 2024,
+      "primary_type": "INTERFERENCE WITH PUBLIC OFFICER",
+      "incidents": 578,
+      "arrests": 511
+    },
+    {
+      "year": 2024,
+      "primary_type": "INTIMIDATION",
+      "incidents": 138,
+      "arrests": 4
+    },
+    {
+      "year": 2024,
+      "primary_type": "KIDNAPPING",
+      "incidents": 77,
+      "arrests": 6
+    },
+    {
+      "year": 2024,
+      "primary_type": "LIQUOR LAW VIOLATION",
+      "incidents": 167,
+      "arrests": 157
+    },
+    {
+      "year": 2024,
+      "primary_type": "MOTOR VEHICLE THEFT",
+      "incidents": 18664,
+      "arrests": 536
+    },
+    {
+      "year": 2024,
+      "primary_type": "NARCOTICS",
+      "incidents": 4892,
+      "arrests": 4714
+    },
+    {
+      "year": 2024,
+      "primary_type": "NON-CRIMINAL",
+      "incidents": 3,
+      "arrests": 1
+    },
+    {
+      "year": 2024,
+      "primary_type": "OBSCENITY",
+      "incidents": 53,
+      "arrests": 24
+    },
+    {
+      "year": 2024,
+      "primary_type": "OFFENSE INVOLVING CHILDREN",
+      "incidents": 1509,
+      "arrests": 141
+    },
+    {
+      "year": 2024,
+      "primary_type": "OTHER NARCOTIC VIOLATION",
+      "incidents": 5,
+      "arrests": 3
+    },
+    {
+      "year": 2024,
+      "primary_type": "OTHER OFFENSE",
+      "incidents": 14549,
+      "arrests": 2759
+    },
+    {
+      "year": 2024,
+      "primary_type": "PROSTITUTION",
+      "incidents": 249,
+      "arrests": 238
+    },
+    {
+      "year": 2024,
+      "primary_type": "PUBLIC INDECENCY",
+      "incidents": 8,
+      "arrests": 7
+    },
+    {
+      "year": 2024,
+      "primary_type": "PUBLIC PEACE VIOLATION",
+      "incidents": 868,
+      "arrests": 431
+    },
+    {
+      "year": 2024,
+      "primary_type": "ROBBERY",
+      "incidents": 7673,
+      "arrests": 624
+    },
+    {
+      "year": 2024,
+      "primary_type": "SEX OFFENSE",
+      "incidents": 1128,
+      "arrests": 98
+    },
+    {
+      "year": 2024,
+      "primary_type": "STALKING",
+      "incidents": 427,
+      "arrests": 28
+    },
+    {
+      "year": 2024,
+      "primary_type": "THEFT",
+      "incidents": 51177,
+      "arrests": 3356
+    },
+    {
+      "year": 2024,
+      "primary_type": "WEAPONS VIOLATION",
+      "incidents": 6956,
+      "arrests": 4136
+    },
+    {
+      "year": 2025,
+      "primary_type": "ARSON",
+      "incidents": 311,
+      "arrests": 39
+    },
+    {
+      "year": 2025,
+      "primary_type": "ASSAULT",
+      "incidents": 18489,
+      "arrests": 2272
+    },
+    {
+      "year": 2025,
+      "primary_type": "BATTERY",
+      "incidents": 36203,
+      "arrests": 6883
+    },
+    {
+      "year": 2025,
+      "primary_type": "BURGLARY",
+      "incidents": 8056,
+      "arrests": 445
+    },
+    {
+      "year": 2025,
+      "primary_type": "CONCEALED CARRY LICENSE VIOLATION",
+      "incidents": 239,
+      "arrests": 232
+    },
+    {
+      "year": 2025,
+      "primary_type": "CRIMINAL DAMAGE",
+      "incidents": 22059,
+      "arrests": 966
+    },
+    {
+      "year": 2025,
+      "primary_type": "CRIMINAL SEXUAL ASSAULT",
+      "incidents": 1537,
+      "arrests": 66
+    },
+    {
+      "year": 2025,
+      "primary_type": "CRIMINAL TRESPASS",
+      "incidents": 4449,
+      "arrests": 1394
+    },
+    {
+      "year": 2025,
+      "primary_type": "DECEPTIVE PRACTICE",
+      "incidents": 13134,
+      "arrests": 400
+    },
+    {
+      "year": 2025,
+      "primary_type": "GAMBLING",
+      "incidents": 11,
+      "arrests": 11
+    },
+    {
+      "year": 2025,
+      "primary_type": "HOMICIDE",
+      "incidents": 378,
+      "arrests": 169
+    },
+    {
+      "year": 2025,
+      "primary_type": "HUMAN TRAFFICKING",
+      "incidents": 16,
+      "arrests": 1
+    },
+    {
+      "year": 2025,
+      "primary_type": "INTERFERENCE WITH PUBLIC OFFICER",
+      "incidents": 784,
+      "arrests": 719
+    },
+    {
+      "year": 2025,
+      "primary_type": "INTIMIDATION",
+      "incidents": 113,
+      "arrests": 4
+    },
+    {
+      "year": 2025,
+      "primary_type": "KIDNAPPING",
+      "incidents": 72,
+      "arrests": 6
+    },
+    {
+      "year": 2025,
+      "primary_type": "LIQUOR LAW VIOLATION",
+      "incidents": 174,
+      "arrests": 161
+    },
+    {
+      "year": 2025,
+      "primary_type": "MOTOR VEHICLE THEFT",
+      "incidents": 14384,
+      "arrests": 489
+    },
+    {
+      "year": 2025,
+      "primary_type": "NARCOTICS",
+      "incidents": 6444,
+      "arrests": 6237
+    },
+    {
+      "year": 2025,
+      "primary_type": "NON-CRIMINAL",
+      "incidents": 3,
+      "arrests": 3
+    },
+    {
+      "year": 2025,
+      "primary_type": "OBSCENITY",
+      "incidents": 48,
+      "arrests": 22
+    },
+    {
+      "year": 2025,
+      "primary_type": "OFFENSE INVOLVING CHILDREN",
+      "incidents": 1406,
+      "arrests": 108
+    },
+    {
+      "year": 2025,
+      "primary_type": "OTHER NARCOTIC VIOLATION",
+      "incidents": 9,
+      "arrests": 5
+    },
+    {
+      "year": 2025,
+      "primary_type": "OTHER OFFENSE",
+      "incidents": 14409,
+      "arrests": 3012
+    },
+    {
+      "year": 2025,
+      "primary_type": "PROSTITUTION",
+      "incidents": 173,
+      "arrests": 158
+    },
+    {
+      "year": 2025,
+      "primary_type": "PUBLIC INDECENCY",
+      "incidents": 8,
+      "arrests": 8
+    },
+    {
+      "year": 2025,
+      "primary_type": "PUBLIC PEACE VIOLATION",
+      "incidents": 918,
+      "arrests": 477
+    },
+    {
+      "year": 2025,
+      "primary_type": "ROBBERY",
+      "incidents": 4980,
+      "arrests": 518
+    },
+    {
+      "year": 2025,
+      "primary_type": "SEX OFFENSE",
+      "incidents": 1180,
+      "arrests": 119
+    },
+    {
+      "year": 2025,
+      "primary_type": "STALKING",
+      "incidents": 488,
+      "arrests": 23
+    },
+    {
+      "year": 2025,
+      "primary_type": "THEFT",
+      "incidents": 46806,
+      "arrests": 4181
+    },
+    {
+      "year": 2025,
+      "primary_type": "WEAPONS VIOLATION",
+      "incidents": 4825,
+      "arrests": 3774
+    },
+    {
+      "year": 2026,
+      "primary_type": "ARSON",
+      "incidents": 317,
+      "arrests": 24
+    },
+    {
+      "year": 2026,
+      "primary_type": "ASSAULT",
+      "incidents": 17757,
+      "arrests": 2403
+    },
+    {
+      "year": 2026,
+      "primary_type": "BATTERY",
+      "incidents": 36031,
+      "arrests": 6903
+    },
+    {
+      "year": 2026,
+      "primary_type": "BURGLARY",
+      "incidents": 11761,
+      "arrests": 355
+    },
+    {
+      "year": 2026,
+      "primary_type": "CONCEALED CARRY LICENSE VIOLATION",
+      "incidents": 222,
+      "arrests": 203
+    },
+    {
+      "year": 2026,
+      "primary_type": "CRIMINAL DAMAGE",
+      "incidents": 21424,
+      "arrests": 989
+    },
+    {
+      "year": 2026,
+      "primary_type": "CRIMINAL SEXUAL ASSAULT",
+      "incidents": 1548,
+      "arrests": 39
+    },
+    {
+      "year": 2026,
+      "primary_type": "CRIMINAL TRESPASS",
+      "incidents": 4675,
+      "arrests": 1536
+    },
+    {
+      "year": 2026,
+      "primary_type": "DECEPTIVE PRACTICE",
+      "incidents": 11169,
+      "arrests": 254
+    },
+    {
+      "year": 2026,
+      "primary_type": "GAMBLING",
+      "incidents": 16,
+      "arrests": 16
+    },
+    {
+      "year": 2026,
+      "primary_type": "HOMICIDE",
+      "incidents": 362,
+      "arrests": 79
+    },
+    {
+      "year": 2026,
+      "primary_type": "HUMAN TRAFFICKING",
+      "incidents": 23,
+      "arrests": 0
+    },
+    {
+      "year": 2026,
+      "primary_type": "INTERFERENCE WITH PUBLIC OFFICER",
+      "incidents": 874,
+      "arrests": 773
+    },
+    {
+      "year": 2026,
+      "primary_type": "INTIMIDATION",
+      "incidents": 212,
+      "arrests": 1
+    },
+    {
+      "year": 2026,
+      "primary_type": "KIDNAPPING",
+      "incidents": 94,
+      "arrests": 10
+    },
+    {
+      "year": 2026,
+      "primary_type": "LIQUOR LAW VIOLATION",
+      "incidents": 187,
+      "arrests": 182
+    },
+    {
+      "year": 2026,
+      "primary_type": "MOTOR VEHICLE THEFT",
+      "incidents": 15165,
+      "arrests": 569
+    },
+    {
+      "year": 2026,
+      "primary_type": "NARCOTICS",
+      "incidents": 5496,
+      "arrests": 5272
+    },
+    {
+      "year": 2026,
+      "primary_type": "OBSCENITY",
+      "incidents": 46,
+      "arrests": 17
+    },
+    {
+      "year": 2026,
+      "primary_type": "OFFENSE INVOLVING CHILDREN",
+      "incidents": 1355,
+      "arrests": 95
+    },
+    {
+      "year": 2026,
+      "primary_type": "OTHER NARCOTIC VIOLATION",
+      "incidents": 6,
+      "arrests": 3
+    },
+    {
+      "year": 2026,
+      "primary_type": "OTHER OFFENSE",
+      "incidents": 13086,
+      "arrests": 2217
+    },
+    {
+      "year": 2026,
+      "primary_type": "PROSTITUTION",
+      "incidents": 120,
+      "arrests": 117
+    },
+    {
+      "year": 2026,
+      "primary_type": "PUBLIC INDECENCY",
+      "incidents": 18,
+      "arrests": 16
+    },
+    {
+      "year": 2026,
+      "primary_type": "PUBLIC PEACE VIOLATION",
+      "incidents": 1112,
+      "arrests": 647
+    },
+    {
+      "year": 2026,
+      "primary_type": "ROBBERY",
+      "incidents": 3972,
+      "arrests": 348
+    },
+    {
+      "year": 2026,
+      "primary_type": "SEX OFFENSE",
+      "incidents": 1249,
+      "arrests": 112
+    },
+    {
+      "year": 2026,
+      "primary_type": "STALKING",
+      "incidents": 560,
+      "arrests": 32
+    },
+    {
+      "year": 2026,
+      "primary_type": "THEFT",
+      "incidents": 42166,
+      "arrests": 3821
+    },
+    {
+      "year": 2026,
+      "primary_type": "WEAPONS VIOLATION",
+      "incidents": 4271,
+      "arrests": 3239
+    }
+  ],
+  "monthly": [
+    {
+      "year": 2020,
+      "month": 1,
+      "incidents": 20131
+    },
+    {
+      "year": 2020,
+      "month": 2,
+      "incidents": 18253
+    },
+    {
+      "year": 2020,
+      "month": 3,
+      "incidents": 16821
+    },
+    {
+      "year": 2020,
+      "month": 4,
+      "incidents": 12981
+    },
+    {
+      "year": 2020,
+      "month": 5,
+      "incidents": 17658
+    },
+    {
+      "year": 2020,
+      "month": 6,
+      "incidents": 17748
+    },
+    {
+      "year": 2020,
+      "month": 7,
+      "incidents": 19725
+    },
+    {
+      "year": 2020,
+      "month": 8,
+      "incidents": 19973
+    },
+    {
+      "year": 2020,
+      "month": 9,
+      "incidents": 18029
+    },
+    {
+      "year": 2020,
+      "month": 10,
+      "incidents": 18506
+    },
+    {
+      "year": 2020,
+      "month": 11,
+      "incidents": 16695
+    },
+    {
+      "year": 2020,
+      "month": 12,
+      "incidents": 16570
+    },
+    {
+      "year": 2021,
+      "month": 1,
+      "incidents": 16352
+    },
+    {
+      "year": 2021,
+      "month": 2,
+      "incidents": 13177
+    },
+    {
+      "year": 2021,
+      "month": 3,
+      "incidents": 16240
+    },
+    {
+      "year": 2021,
+      "month": 4,
+      "incidents": 15744
+    },
+    {
+      "year": 2021,
+      "month": 5,
+      "incidents": 17916
+    },
+    {
+      "year": 2021,
+      "month": 6,
+      "incidents": 18926
+    },
+    {
+      "year": 2021,
+      "month": 7,
+      "incidents": 19337
+    },
+    {
+      "year": 2021,
+      "month": 8,
+      "incidents": 18656
+    },
+    {
+      "year": 2021,
+      "month": 9,
+      "incidents": 19319
+    },
+    {
+      "year": 2021,
+      "month": 10,
+      "incidents": 19448
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "incidents": 17506
+    },
+    {
+      "year": 2021,
+      "month": 12,
+      "incidents": 17409
+    },
+    {
+      "year": 2022,
+      "month": 1,
+      "incidents": 15823
+    },
+    {
+      "year": 2022,
+      "month": 2,
+      "incidents": 15338
+    },
+    {
+      "year": 2022,
+      "month": 3,
+      "incidents": 18486
+    },
+    {
+      "year": 2022,
+      "month": 4,
+      "incidents": 18113
+    },
+    {
+      "year": 2022,
+      "month": 5,
+      "incidents": 20263
+    },
+    {
+      "year": 2022,
+      "month": 6,
+      "incidents": 20904
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "incidents": 22400
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "incidents": 22436
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "incidents": 22470
+    },
+    {
+      "year": 2022,
+      "month": 10,
+      "incidents": 23328
+    },
+    {
+      "year": 2022,
+      "month": 11,
+      "incidents": 20916
+    },
+    {
+      "year": 2022,
+      "month": 12,
+      "incidents": 20045
+    },
+    {
+      "year": 2023,
+      "month": 1,
+      "incidents": 21407
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "incidents": 18527
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "incidents": 20847
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "incidents": 20851
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "incidents": 22323
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "incidents": 22818
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "incidents": 24114
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "incidents": 24284
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "incidents": 22701
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "incidents": 23155
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "incidents": 21477
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "incidents": 21376
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "incidents": 19723
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "incidents": 19991
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "incidents": 20958
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "incidents": 20537
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "incidents": 23036
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "incidents": 23252
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "incidents": 24154
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "incidents": 23048
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "incidents": 23033
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "incidents": 22527
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "incidents": 19773
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "incidents": 19654
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "incidents": 18580
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "incidents": 16589
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "incidents": 19834
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "incidents": 19729
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "incidents": 20578
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "incidents": 21199
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "incidents": 22719
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "incidents": 21393
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "incidents": 20413
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "incidents": 21072
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "incidents": 18506
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "incidents": 17606
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "incidents": 17050
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "incidents": 16547
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "incidents": 19217
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "incidents": 19184
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "incidents": 21183
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "incidents": 20100
+    },
+    {
+      "year": 2026,
+      "month": 7,
+      "incidents": 21332
+    },
+    {
+      "year": 2026,
+      "month": 8,
+      "incidents": 20911
+    },
+    {
+      "year": 2026,
+      "month": 9,
+      "incidents": 19937
+    },
+    {
+      "year": 2026,
+      "month": 10,
+      "incidents": 19833
+    }
+  ],
+  "time": [
+    {
+      "weekday": 0,
+      "hour": 0,
+      "incidents": 17462
+    },
+    {
+      "weekday": 0,
+      "hour": 1,
+      "incidents": 7281
+    },
+    {
+      "weekday": 0,
+      "hour": 2,
+      "incidents": 6263
+    },
+    {
+      "weekday": 0,
+      "hour": 3,
+      "incidents": 5334
+    },
+    {
+      "weekday": 0,
+      "hour": 4,
+      "incidents": 4429
+    },
+    {
+      "weekday": 0,
+      "hour": 5,
+      "incidents": 4020
+    },
+    {
+      "weekday": 0,
+      "hour": 6,
+      "incidents": 4456
+    },
+    {
+      "weekday": 0,
+      "hour": 7,
+      "incidents": 6223
+    },
+    {
+      "weekday": 0,
+      "hour": 8,
+      "incidents": 8648
+    },
+    {
+      "weekday": 0,
+      "hour": 9,
+      "incidents": 10334
+    },
+    {
+      "weekday": 0,
+      "hour": 10,
+      "incidents": 10416
+    },
+    {
+      "weekday": 0,
+      "hour": 11,
+      "incidents": 10373
+    },
+    {
+      "weekday": 0,
+      "hour": 12,
+      "incidents": 13990
+    },
+    {
+      "weekday": 0,
+      "hour": 13,
+      "incidents": 10619
+    },
+    {
+      "weekday": 0,
+      "hour": 14,
+      "incidents": 11012
+    },
+    {
+      "weekday": 0,
+      "hour": 15,
+      "incidents": 12554
+    },
+    {
+      "weekday": 0,
+      "hour": 16,
+      "incidents": 12208
+    },
+    {
+      "weekday": 0,
+      "hour": 17,
+      "incidents": 12412
+    },
+    {
+      "weekday": 0,
+      "hour": 18,
+      "incidents": 12234
+    },
+    {
+      "weekday": 0,
+      "hour": 19,
+      "incidents": 11951
+    },
+    {
+      "weekday": 0,
+      "hour": 20,
+      "incidents": 11237
+    },
+    {
+      "weekday": 0,
+      "hour": 21,
+      "incidents": 10283
+    },
+    {
+      "weekday": 0,
+      "hour": 22,
+      "incidents": 9438
+    },
+    {
+      "weekday": 0,
+      "hour": 23,
+      "incidents": 8101
+    },
+    {
+      "weekday": 1,
+      "hour": 0,
+      "incidents": 15344
+    },
+    {
+      "weekday": 1,
+      "hour": 1,
+      "incidents": 6008
+    },
+    {
+      "weekday": 1,
+      "hour": 2,
+      "incidents": 5148
+    },
+    {
+      "weekday": 1,
+      "hour": 3,
+      "incidents": 4538
+    },
+    {
+      "weekday": 1,
+      "hour": 4,
+      "incidents": 3991
+    },
+    {
+      "weekday": 1,
+      "hour": 5,
+      "incidents": 3642
+    },
+    {
+      "weekday": 1,
+      "hour": 6,
+      "incidents": 4275
+    },
+    {
+      "weekday": 1,
+      "hour": 7,
+      "incidents": 6045
+    },
+    {
+      "weekday": 1,
+      "hour": 8,
+      "incidents": 8300
+    },
+    {
+      "weekday": 1,
+      "hour": 9,
+      "incidents": 10458
+    },
+    {
+      "weekday": 1,
+      "hour": 10,
+      "incidents": 10656
+    },
+    {
+      "weekday": 1,
+      "hour": 11,
+      "incidents": 10750
+    },
+    {
+      "weekday": 1,
+      "hour": 12,
+      "incidents": 13987
+    },
+    {
+      "weekday": 1,
+      "hour": 13,
+      "incidents": 10811
+    },
+    {
+      "weekday": 1,
+      "hour": 14,
+      "incidents": 11345
+    },
+    {
+      "weekday": 1,
+      "hour": 15,
+      "incidents": 12801
+    },
+    {
+      "weekday": 1,
+      "hour": 16,
+      "incidents": 12433
+    },
+    {
+      "weekday": 1,
+      "hour": 17,
+      "incidents": 12705
+    },
+    {
+      "weekday": 1,
+      "hour": 18,
+      "incidents": 12435
+    },
+    {
+      "weekday": 1,
+      "hour": 19,
+      "incidents": 12069
+    },
+    {
+      "weekday": 1,
+      "hour": 20,
+      "incidents": 11432
+    },
+    {
+      "weekday": 1,
+      "hour": 21,
+      "incidents": 10267
+    },
+    {
+      "weekday": 1,
+      "hour": 22,
+      "incidents": 9492
+    },
+    {
+      "weekday": 1,
+      "hour": 23,
+      "incidents": 8232
+    },
+    {
+      "weekday": 2,
+      "hour": 0,
+      "incidents": 16051
+    },
+    {
+      "weekday": 2,
+      "hour": 1,
+      "incidents": 6213
+    },
+    {
+      "weekday": 2,
+      "hour": 2,
+      "incidents": 5218
+    },
+    {
+      "weekday": 2,
+      "hour": 3,
+      "incidents": 4644
+    },
+    {
+      "weekday": 2,
+      "hour": 4,
+      "incidents": 3957
+    },
+    {
+      "weekday": 2,
+      "hour": 5,
+      "incidents": 3704
+    },
+    {
+      "weekday": 2,
+      "hour": 6,
+      "incidents": 4523
+    },
+    {
+      "weekday": 2,
+      "hour": 7,
+      "incidents": 6004
+    },
+    {
+      "weekday": 2,
+      "hour": 8,
+      "incidents": 8428
+    },
+    {
+      "weekday": 2,
+      "hour": 9,
+      "incidents": 10645
+    },
+    {
+      "weekday": 2,
+      "hour": 10,
+      "incidents": 10520
+    },
+    {
+      "weekday": 2,
+      "hour": 11,
+      "incidents": 10650
+    },
+    {
+      "weekday": 2,
+      "hour": 12,
+      "incidents": 14133
+    },
+    {
+      "weekday": 2,
+      "hour": 13,
+      "incidents": 11294
+    },
+    {
+      "weekday": 2,
+      "hour": 14,
+      "incidents": 11484
+    },
+    {
+      "weekday": 2,
+      "hour": 15,
+      "incidents": 12906
+    },
+    {
+      "weekday": 2,
+      "hour": 16,
+      "incidents": 12532
+    },
+    {
+      "weekday": 2,
+      "hour": 17,
+      "incidents": 12618
+    },
+    {
+      "weekday": 2,
+      "hour": 18,
+      "incidents": 12510
+    },
+    {
+      "weekday": 2,
+      "hour": 19,
+      "incidents": 11972
+    },
+    {
+      "weekday": 2,
+      "hour": 20,
+      "incidents": 11425
+    },
+    {
+      "weekday": 2,
+      "hour": 21,
+      "incidents": 10484
+    },
+    {
+      "weekday": 2,
+      "hour": 22,
+      "incidents": 9734
+    },
+    {
+      "weekday": 2,
+      "hour": 23,
+      "incidents": 8306
+    },
+    {
+      "weekday": 3,
+      "hour": 0,
+      "incidents": 15414
+    },
+    {
+      "weekday": 3,
+      "hour": 1,
+      "incidents": 6160
+    },
+    {
+      "weekday": 3,
+      "hour": 2,
+      "incidents": 5380
+    },
+    {
+      "weekday": 3,
+      "hour": 3,
+      "incidents": 4675
+    },
+    {
+      "weekday": 3,
+      "hour": 4,
+      "incidents": 3940
+    },
+    {
+      "weekday": 3,
+      "hour": 5,
+      "incidents": 3764
+    },
+    {
+      "weekday": 3,
+      "hour": 6,
+      "incidents": 4362
+    },
+    {
+      "weekday": 3,
+      "hour": 7,
+      "incidents": 6035
+    },
+    {
+      "weekday": 3,
+      "hour": 8,
+      "incidents": 8157
+    },
+    {
+      "weekday": 3,
+      "hour": 9,
+      "incidents": 10294
+    },
+    {
+      "weekday": 3,
+      "hour": 10,
+      "incidents": 10427
+    },
+    {
+      "weekday": 3,
+      "hour": 11,
+      "incidents": 10630
+    },
+    {
+      "weekday": 3,
+      "hour": 12,
+      "incidents": 14026
+    },
+    {
+      "weekday": 3,
+      "hour": 13,
+      "incidents": 10834
+    },
+    {
+      "weekday": 3,
+      "hour": 14,
+      "incidents": 11314
+    },
+    {
+      "weekday": 3,
+      "hour": 15,
+      "incidents": 12932
+    },
+    {
+      "weekday": 3,
+      "hour": 16,
+      "incidents": 12420
+    },
+    {
+      "weekday": 3,
+      "hour": 17,
+      "incidents": 12338
+    },
+    {
+      "weekday": 3,
+      "hour": 18,
+      "incidents": 12095
+    },
+    {
+      "weekday": 3,
+      "hour": 19,
+      "incidents": 11637
+    },
+    {
+      "weekday": 3,
+      "hour": 20,
+      "incidents": 11518
+    },
+    {
+      "weekday": 3,
+      "hour": 21,
+      "incidents": 10246
+    },
+    {
+      "weekday": 3,
+      "hour": 22,
+      "incidents": 9675
+    },
+    {
+      "weekday": 3,
+      "hour": 23,
+      "incidents": 8518
+    },
+    {
+      "weekday": 4,
+      "hour": 0,
+      "incidents": 16451
+    },
+    {
+      "weekday": 4,
+      "hour": 1,
+      "incidents": 6920
+    },
+    {
+      "weekday": 4,
+      "hour": 2,
+      "incidents": 5992
+    },
+    {
+      "weekday": 4,
+      "hour": 3,
+      "incidents": 5287
+    },
+    {
+      "weekday": 4,
+      "hour": 4,
+      "incidents": 4245
+    },
+    {
+      "weekday": 4,
+      "hour": 5,
+      "incidents": 3957
+    },
+    {
+      "weekday": 4,
+      "hour": 6,
+      "incidents": 4206
+    },
+    {
+      "weekday": 4,
+      "hour": 7,
+      "incidents": 5827
+    },
+    {
+      "weekday": 4,
+      "hour": 8,
+      "incidents": 8230
+    },
+    {
+      "weekday": 4,
+      "hour": 9,
+      "incidents": 10514
+    },
+    {
+      "weekday": 4,
+      "hour": 10,
+      "incidents": 10521
+    },
+    {
+      "weekday": 4,
+      "hour": 11,
+      "incidents": 10594
+    },
+    {
+      "weekday": 4,
+      "hour": 12,
+      "incidents": 13897
+    },
+    {
+      "weekday": 4,
+      "hour": 13,
+      "incidents": 10923
+    },
+    {
+      "weekday": 4,
+      "hour": 14,
+      "incidents": 11738
+    },
+    {
+      "weekday": 4,
+      "hour": 15,
+      "incidents": 13301
+    },
+    {
+      "weekday": 4,
+      "hour": 16,
+      "incidents": 12861
+    },
+    {
+      "weekday": 4,
+      "hour": 17,
+      "incidents": 12950
+    },
+    {
+      "weekday": 4,
+      "hour": 18,
+      "incidents": 12663
+    },
+    {
+      "weekday": 4,
+      "hour": 19,
+      "incidents": 12273
+    },
+    {
+      "weekday": 4,
+      "hour": 20,
+      "incidents": 11891
+    },
+    {
+      "weekday": 4,
+      "hour": 21,
+      "incidents": 11177
+    },
+    {
+      "weekday": 4,
+      "hour": 22,
+      "incidents": 11209
+    },
+    {
+      "weekday": 4,
+      "hour": 23,
+      "incidents": 10653
+    },
+    {
+      "weekday": 5,
+      "hour": 0,
+      "incidents": 17478
+    },
+    {
+      "weekday": 5,
+      "hour": 1,
+      "incidents": 9689
+    },
+    {
+      "weekday": 5,
+      "hour": 2,
+      "incidents": 8794
+    },
+    {
+      "weekday": 5,
+      "hour": 3,
+      "incidents": 7449
+    },
+    {
+      "weekday": 5,
+      "hour": 4,
+      "incidents": 5895
+    },
+    {
+      "weekday": 5,
+      "hour": 5,
+      "incidents": 4565
+    },
+    {
+      "weekday": 5,
+      "hour": 6,
+      "incidents": 4322
+    },
+    {
+      "weekday": 5,
+      "hour": 7,
+      "incidents": 4992
+    },
+    {
+      "weekday": 5,
+      "hour": 8,
+      "incidents": 6704
+    },
+    {
+      "weekday": 5,
+      "hour": 9,
+      "incidents": 8760
+    },
+    {
+      "weekday": 5,
+      "hour": 10,
+      "incidents": 9454
+    },
+    {
+      "weekday": 5,
+      "hour": 11,
+      "incidents": 9863
+    },
+    {
+      "weekday": 5,
+      "hour": 12,
+      "incidents": 12689
+    },
+    {
+      "weekday": 5,
+      "hour": 13,
+      "incidents": 10043
+    },
+    {
+      "weekday": 5,
+      "hour": 14,
+      "incidents": 10687
+    },
+    {
+      "weekday": 5,
+      "hour": 15,
+      "incidents": 11530
+    },
+    {
+      "weekday": 5,
+      "hour": 16,
+      "incidents": 11713
+    },
+    {
+      "weekday": 5,
+      "hour": 17,
+      "incidents": 11853
+    },
+    {
+      "weekday": 5,
+      "hour": 18,
+      "incidents": 11631
+    },
+    {
+      "weekday": 5,
+      "hour": 19,
+      "incidents": 11601
+    },
+    {
+      "weekday": 5,
+      "hour": 20,
+      "incidents": 11773
+    },
+    {
+      "weekday": 5,
+      "hour": 21,
+      "incidents": 11186
+    },
+    {
+      "weekday": 5,
+      "hour": 22,
+      "incidents": 11624
+    },
+    {
+      "weekday": 5,
+      "hour": 23,
+      "incidents": 11546
+    },
+    {
+      "weekday": 6,
+      "hour": 0,
+      "incidents": 18812
+    },
+    {
+      "weekday": 6,
+      "hour": 1,
+      "incidents": 10975
+    },
+    {
+      "weekday": 6,
+      "hour": 2,
+      "incidents": 10262
+    },
+    {
+      "weekday": 6,
+      "hour": 3,
+      "incidents": 8791
+    },
+    {
+      "weekday": 6,
+      "hour": 4,
+      "incidents": 6720
+    },
+    {
+      "weekday": 6,
+      "hour": 5,
+      "incidents": 5014
+    },
+    {
+      "weekday": 6,
+      "hour": 6,
+      "incidents": 4304
+    },
+    {
+      "weekday": 6,
+      "hour": 7,
+      "incidents": 4789
+    },
+    {
+      "weekday": 6,
+      "hour": 8,
+      "incidents": 6429
+    },
+    {
+      "weekday": 6,
+      "hour": 9,
+      "incidents": 8201
+    },
+    {
+      "weekday": 6,
+      "hour": 10,
+      "incidents": 8796
+    },
+    {
+      "weekday": 6,
+      "hour": 11,
+      "incidents": 8838
+    },
+    {
+      "weekday": 6,
+      "hour": 12,
+      "incidents": 11771
+    },
+    {
+      "weekday": 6,
+      "hour": 13,
+      "incidents": 9459
+    },
+    {
+      "weekday": 6,
+      "hour": 14,
+      "incidents": 10036
+    },
+    {
+      "weekday": 6,
+      "hour": 15,
+      "incidents": 10907
+    },
+    {
+      "weekday": 6,
+      "hour": 16,
+      "incidents": 11111
+    },
+    {
+      "weekday": 6,
+      "hour": 17,
+      "incidents": 11380
+    },
+    {
+      "weekday": 6,
+      "hour": 18,
+      "incidents": 11361
+    },
+    {
+      "weekday": 6,
+      "hour": 19,
+      "incidents": 11308
+    },
+    {
+      "weekday": 6,
+      "hour": 20,
+      "incidents": 11338
+    },
+    {
+      "weekday": 6,
+      "hour": 21,
+      "incidents": 10950
+    },
+    {
+      "weekday": 6,
+      "hour": 22,
+      "incidents": 10526
+    },
+    {
+      "weekday": 6,
+      "hour": 23,
+      "incidents": 9333
+    }
+  ],
+  "season": [
+    {
+      "season": "Autumn",
+      "incidents": 368874,
+      "days": 546,
+      "incidents_per_day": 675.5934065934066
+    },
+    {
+      "season": "Spring",
+      "incidents": 342915,
+      "days": 552,
+      "incidents_per_day": 621.2228260869565
+    },
+    {
+      "season": "Summer",
+      "incidents": 387086,
+      "days": 552,
+      "incidents_per_day": 701.2427536231884
+    },
+    {
+      "season": "Winter",
+      "incidents": 326551,
+      "days": 542,
+      "incidents_per_day": 602.4926199261993
+    }
+  ],
+  "areas": [
+    {
+      "community_area": 25,
+      "incidents": 84214,
+      "arrests": 14849,
+      "arrest_rate": 0.17632460161018357
+    },
+    {
+      "community_area": 8,
+      "incidents": 68984,
+      "arrests": 10047,
+      "arrest_rate": 0.1456424678186246
+    },
+    {
+      "community_area": 28,
+      "incidents": 63548,
+      "arrests": 6703,
+      "arrest_rate": 0.1054793227166866
+    },
+    {
+      "community_area": 43,
+      "incidents": 56104,
+      "arrests": 6371,
+      "arrest_rate": 0.11355696563524882
+    },
+    {
+      "community_area": 32,
+      "incidents": 52232,
+      "arrests": 9678,
+      "arrest_rate": 0.1852887119007505
+    },
+    {
+      "community_area": 24,
+      "incidents": 47142,
+      "arrests": 3864,
+      "arrest_rate": 0.08196512663866616
+    },
+    {
+      "community_area": 29,
+      "incidents": 45927,
+      "arrests": 11095,
+      "arrest_rate": 0.24157902758725805
+    },
+    {
+      "community_area": 23,
+      "incidents": 44418,
+      "arrests": 11382,
+      "arrest_rate": 0.25624746724300956
+    },
+    {
+      "community_area": 71,
+      "incidents": 43329,
+      "arrests": 5899,
+      "arrest_rate": 0.13614438366913614
+    },
+    {
+      "community_area": 69,
+      "incidents": 42225,
+      "arrests": 6240,
+      "arrest_rate": 0.1477797513321492
+    },
+    {
+      "community_area": 6,
+      "incidents": 39341,
+      "arrests": 3486,
+      "arrest_rate": 0.08860984723316642
+    },
+    {
+      "community_area": 49,
+      "incidents": 38892,
+      "arrests": 6058,
+      "arrest_rate": 0.15576468168260824
+    },
+    {
+      "community_area": 44,
+      "incidents": 38847,
+      "arrests": 5194,
+      "arrest_rate": 0.13370401832831363
+    },
+    {
+      "community_area": 68,
+      "incidents": 33782,
+      "arrests": 5717,
+      "arrest_rate": 0.16923213545675211
+    },
+    {
+      "community_area": 66,
+      "incidents": 33594,
+      "arrests": 4983,
+      "arrest_rate": 0.14833005893909626
+    },
+    {
+      "community_area": 67,
+      "incidents": 32844,
+      "arrests": 5795,
+      "arrest_rate": 0.17644014127390087
+    },
+    {
+      "community_area": 22,
+      "incidents": 30713,
+      "arrests": 3702,
+      "arrest_rate": 0.12053527822094878
+    },
+    {
+      "community_area": 19,
+      "incidents": 28766,
+      "arrests": 4317,
+      "arrest_rate": 0.1500730028505875
+    },
+    {
+      "community_area": 26,
+      "incidents": 27449,
+      "arrests": 7953,
+      "arrest_rate": 0.28973733105031146
+    },
+    {
+      "community_area": 3,
+      "incidents": 26926,
+      "arrests": 3353,
+      "arrest_rate": 0.12452647998217337
+    },
+    {
+      "community_area": 46,
+      "incidents": 26646,
+      "arrests": 3121,
+      "arrest_rate": 0.11712827441266982
+    },
+    {
+      "community_area": 1,
+      "incidents": 26392,
+      "arrests": 3814,
+      "arrest_rate": 0.1445134889360412
+    },
+    {
+      "community_area": 30,
+      "incidents": 26249,
+      "arrests": 4723,
+      "arrest_rate": 0.1799306640252962
+    },
+    {
+      "community_area": 61,
+      "incidents": 26227,
+      "arrests": 4264,
+      "arrest_rate": 0.1625805467647844
+    },
+    {
+      "community_area": 27,
+      "incidents": 26083,
+      "arrests": 5150,
+      "arrest_rate": 0.197446612736265
+    },
+    {
+      "community_area": 7,
+      "incidents": 24881,
+      "arrests": 1495,
+      "arrest_rate": 0.06008600940476669
+    },
+    {
+      "community_area": 53,
+      "incidents": 24117,
+      "arrests": 3405,
+      "arrest_rate": 0.1411867147655181
+    },
+    {
+      "community_area": 2,
+      "incidents": 23813,
+      "arrests": 2296,
+      "arrest_rate": 0.09641792298324445
+    },
+    {
+      "community_area": 42,
+      "incidents": 23469,
+      "arrests": 2970,
+      "arrest_rate": 0.12654991691167072
+    },
+    {
+      "community_area": 38,
+      "incidents": 23291,
+      "arrests": 2600,
+      "arrest_rate": 0.11163110214245846
+    },
+    {
+      "community_area": 15,
+      "incidents": 20494,
+      "arrests": 3044,
+      "arrest_rate": 0.14853127744705769
+    },
+    {
+      "community_area": 77,
+      "incidents": 19990,
+      "arrests": 2055,
+      "arrest_rate": 0.10280140070035018
+    },
+    {
+      "community_area": 73,
+      "incidents": 19419,
+      "arrests": 2492,
+      "arrest_rate": 0.12832792625778877
+    },
+    {
+      "community_area": 35,
+      "incidents": 18595,
+      "arrests": 2078,
+      "arrest_rate": 0.11175047055660124
+    },
+    {
+      "community_area": 31,
+      "incidents": 18354,
+      "arrests": 2238,
+      "arrest_rate": 0.12193527296502125
+    },
+    {
+      "community_area": 16,
+      "incidents": 16795,
+      "arrests": 1640,
+      "arrest_rate": 0.0976481095564156
+    },
+    {
+      "community_area": 33,
+      "incidents": 15863,
+      "arrests": 2223,
+      "arrest_rate": 0.14013742671625795
+    },
+    {
+      "community_area": 40,
+      "incidents": 15742,
+      "arrests": 2006,
+      "arrest_rate": 0.12742980561555076
+    },
+    {
+      "community_area": 14,
+      "incidents": 15280,
+      "arrests": 1858,
+      "arrest_rate": 0.12159685863874345
+    },
+    {
+      "community_area": 41,
+      "incidents": 14833,
+      "arrests": 860,
+      "arrest_rate": 0.05797883098496595
+    },
+    {
+      "community_area": 63,
+      "incidents": 14458,
+      "arrests": 1954,
+      "arrest_rate": 0.13515008991561764
+    },
+    {
+      "community_area": 70,
+      "incidents": 14237,
+      "arrests": 1044,
+      "arrest_rate": 0.07333005548921824
+    },
+    {
+      "community_area": 21,
+      "incidents": 14108,
+      "arrests": 1586,
+      "arrest_rate": 0.1124184859654097
+    },
+    {
+      "community_area": 58,
+      "incidents": 14028,
+      "arrests": 1714,
+      "arrest_rate": 0.12218420302252637
+    },
+    {
+      "community_area": 4,
+      "incidents": 13328,
+      "arrests": 1330,
+      "arrest_rate": 0.09978991596638656
+    },
+    {
+      "community_area": 56,
+      "incidents": 13317,
+      "arrests": 1778,
+      "arrest_rate": 0.13351355410377713
+    },
+    {
+      "community_area": 75,
+      "incidents": 12569,
+      "arrests": 1604,
+      "arrest_rate": 0.12761556209722333
+    },
+    {
+      "community_area": 39,
+      "incidents": 12380,
+      "arrests": 819,
+      "arrest_rate": 0.0661550888529887
+    },
+    {
+      "community_area": 51,
+      "incidents": 12085,
+      "arrests": 1425,
+      "arrest_rate": 0.11791477037649979
+    },
+    {
+      "community_area": 65,
+      "incidents": 11179,
+      "arrests": 1189,
+      "arrest_rate": 0.10636013954736559
+    },
+    {
+      "community_area": 76,
+      "incidents": 10958,
+      "arrests": 2626,
+      "arrest_rate": 0.2396422704873152
+    },
+    {
+      "community_area": 17,
+      "incidents": 10655,
+      "arrests": 1029,
+      "arrest_rate": 0.09657437822618489
+    },
+    {
+      "community_area": 60,
+      "incidents": 10470,
+      "arrests": 1115,
+      "arrest_rate": 0.10649474689589303
+    },
+    {
+      "community_area": 48,
+      "incidents": 9237,
+      "arrests": 873,
+      "arrest_rate": 0.09451120493666774
+    },
+    {
+      "community_area": 20,
+      "incidents": 9138,
+      "arrests": 1307,
+      "arrest_rate": 0.1430291092142701
+    },
+    {
+      "community_area": 5,
+      "incidents": 8743,
+      "arrests": 549,
+      "arrest_rate": 0.06279309161615006
+    },
+    {
+      "community_area": 52,
+      "incidents": 8424,
+      "arrests": 868,
+      "arrest_rate": 0.1030389363722697
+    },
+    {
+      "community_area": 10,
+      "incidents": 8092,
+      "arrests": 691,
+      "arrest_rate": 0.08539298072170044
+    },
+    {
+      "community_area": 54,
+      "incidents": 7986,
+      "arrests": 847,
+      "arrest_rate": 0.10606060606060606
+    },
+    {
+      "community_area": 45,
+      "incidents": 7804,
+      "arrests": 847,
+      "arrest_rate": 0.10853408508457202
+    },
+    {
+      "community_area": 34,
+      "incidents": 7424,
+      "arrests": 941,
+      "arrest_rate": 0.1267510775862069
+    },
+    {
+      "community_area": 50,
+      "incidents": 7077,
+      "arrests": 1315,
+      "arrest_rate": 0.18581319768263388
+    },
+    {
+      "community_area": 64,
+      "incidents": 7052,
+      "arrests": 574,
+      "arrest_rate": 0.08139534883720931
+    },
+    {
+      "community_area": 11,
+      "incidents": 6769,
+      "arrests": 788,
+      "arrest_rate": 0.11641305953612055
+    },
+    {
+      "community_area": 57,
+      "incidents": 6445,
+      "arrests": 641,
+      "arrest_rate": 0.09945694336695113
+    },
+    {
+      "community_area": 72,
+      "incidents": 6318,
+      "arrests": 596,
+      "arrest_rate": 0.09433364988920545
+    },
+    {
+      "community_area": 59,
+      "incidents": 6138,
+      "arrests": 806,
+      "arrest_rate": 0.13131313131313133
+    },
+    {
+      "community_area": 62,
+      "incidents": 6121,
+      "arrests": 658,
+      "arrest_rate": 0.1074987747100147
+    },
+    {
+      "community_area": 13,
+      "incidents": 6070,
+      "arrests": 531,
+      "arrest_rate": 0.08747940691927512
+    },
+    {
+      "community_area": 36,
+      "incidents": 5326,
+      "arrests": 416,
+      "arrest_rate": 0.07810739767179872
+    },
+    {
+      "community_area": 55,
+      "incidents": 4716,
+      "arrests": 368,
+      "arrest_rate": 0.07803223070398643
+    },
+    {
+      "community_area": 37,
+      "incidents": 4582,
+      "arrests": 839,
+      "arrest_rate": 0.18310781318201658
+    },
+    {
+      "community_area": 18,
+      "incidents": 4264,
+      "arrests": 408,
+      "arrest_rate": 0.09568480300187618
+    },
+    {
+      "community_area": 74,
+      "incidents": 3594,
+      "arrests": 357,
+      "arrest_rate": 0.0993322203672788
+    },
+    {
+      "community_area": 12,
+      "incidents": 3466,
+      "arrests": 209,
+      "arrest_rate": 0.0603000577034045
+    },
+    {
+      "community_area": null,
+      "incidents": 2351,
+      "arrests": 44,
+      "arrest_rate": 0.01871544023819651
+    },
+    {
+      "community_area": 47,
+      "incidents": 2168,
+      "arrests": 213,
+      "arrest_rate": 0.09824723247232472
+    },
+    {
+      "community_area": 9,
+      "incidents": 1833,
+      "arrests": 140,
+      "arrest_rate": 0.07637752318603383
+    }
+  ],
+  "categories": [
+    {
+      "primary_type": "THEFT",
+      "incidents": 352570,
+      "arrests": 22189,
+      "arrest_rate": 0.06293501999602916
+    },
+    {
+      "primary_type": "BATTERY",
+      "incidents": 292283,
+      "arrests": 48737,
+      "arrest_rate": 0.16674592774810715
+    },
+    {
+      "primary_type": "CRIMINAL DAMAGE",
+      "incidents": 183564,
+      "arrests": 7145,
+      "arrest_rate": 0.03892375411300691
+    },
+    {
+      "primary_type": "ASSAULT",
+      "incidents": 144916,
+      "arrests": 16140,
+      "arrest_rate": 0.11137486543928897
+    },
+    {
+      "primary_type": "MOTOR VEHICLE THEFT",
+      "incidents": 125439,
+      "arrests": 4017,
+      "arrest_rate": 0.03202353335087174
+    },
+    {
+      "primary_type": "DECEPTIVE PRACTICE",
+      "incidents": 114769,
+      "arrests": 2961,
+      "arrest_rate": 0.025799649731199192
+    },
+    {
+      "primary_type": "OTHER OFFENSE",
+      "incidents": 104112,
+      "arrests": 16804,
+      "arrest_rate": 0.16140310434916244
+    },
+    {
+      "primary_type": "BURGLARY",
+      "incidents": 60449,
+      "arrests": 2953,
+      "arrest_rate": 0.048851097619480886
+    },
+    {
+      "primary_type": "ROBBERY",
+      "incidents": 54721,
+      "arrests": 4023,
+      "arrest_rate": 0.07351839330421593
+    },
+    {
+      "primary_type": "WEAPONS VIOLATION",
+      "incidents": 52360,
+      "arrests": 33714,
+      "arrest_rate": 0.6438884644766998
+    },
+    {
+      "primary_type": "NARCOTICS",
+      "incidents": 42027,
+      "arrests": 41040,
+      "arrest_rate": 0.9765150974373616
+    },
+    {
+      "primary_type": "CRIMINAL TRESPASS",
+      "incidents": 31480,
+      "arrests": 9927,
+      "arrest_rate": 0.31534307496823377
+    },
+    {
+      "primary_type": "OFFENSE INVOLVING CHILDREN",
+      "incidents": 12806,
+      "arrests": 1222,
+      "arrest_rate": 0.0954240199906294
+    },
+    {
+      "primary_type": "CRIMINAL SEXUAL ASSAULT",
+      "incidents": 11563,
+      "arrests": 590,
+      "arrest_rate": 0.05102482054830061
+    },
+    {
+      "primary_type": "SEX OFFENSE",
+      "incidents": 8845,
+      "arrests": 771,
+      "arrest_rate": 0.08716789146410402
+    },
+    {
+      "primary_type": "PUBLIC PEACE VIOLATION",
+      "incidents": 6600,
+      "arrests": 3053,
+      "arrest_rate": 0.4625757575757576
+    },
+    {
+      "primary_type": "INTERFERENCE WITH PUBLIC OFFICER",
+      "incidents": 4427,
+      "arrests": 3949,
+      "arrest_rate": 0.8920262028461712
+    },
+    {
+      "primary_type": "HOMICIDE",
+      "incidents": 4386,
+      "arrests": 1791,
+      "arrest_rate": 0.40834473324213405
+    },
+    {
+      "primary_type": "STALKING",
+      "incidents": 3227,
+      "arrests": 194,
+      "arrest_rate": 0.06011775643012086
+    },
+    {
+      "primary_type": "ARSON",
+      "incidents": 3225,
+      "arrests": 305,
+      "arrest_rate": 0.09457364341085271
+    },
+    {
+      "primary_type": "PROSTITUTION",
+      "incidents": 1483,
+      "arrests": 1433,
+      "arrest_rate": 0.9662845583277141
+    },
+    {
+      "primary_type": "CONCEALED CARRY LICENSE VIOLATION",
+      "incidents": 1399,
+      "arrests": 1343,
+      "arrest_rate": 0.9599714081486777
+    },
+    {
+      "primary_type": "LIQUOR LAW VIOLATION",
+      "incidents": 1300,
+      "arrests": 1264,
+      "arrest_rate": 0.9723076923076923
+    },
+    {
+      "primary_type": "INTIMIDATION",
+      "incidents": 1230,
+      "arrests": 29,
+      "arrest_rate": 0.023577235772357725
+    },
+    {
+      "primary_type": "KIDNAPPING",
+      "incidents": 747,
+      "arrests": 54,
+      "arrest_rate": 0.07228915662650602
+    },
+    {
+      "primary_type": "OBSCENITY",
+      "incidents": 367,
+      "arrests": 209,
+      "arrest_rate": 0.5694822888283378
+    },
+    {
+      "primary_type": "HUMAN TRAFFICKING",
+      "incidents": 116,
+      "arrests": 4,
+      "arrest_rate": 0.034482758620689655
+    },
+    {
+      "primary_type": "GAMBLING",
+      "incidents": 113,
+      "arrests": 111,
+      "arrest_rate": 0.9823008849557522
+    },
+    {
+      "primary_type": "CRIM SEXUAL ASSAULT",
+      "incidents": 77,
+      "arrests": 3,
+      "arrest_rate": 0.03896103896103896
+    },
+    {
+      "primary_type": "PUBLIC INDECENCY",
+      "incidents": 61,
+      "arrests": 56,
+      "arrest_rate": 0.9180327868852459
+    },
+    {
+      "primary_type": "OTHER NARCOTIC VIOLATION",
+      "incidents": 38,
+      "arrests": 19,
+      "arrest_rate": 0.5
+    },
+    {
+      "primary_type": "NON-CRIMINAL",
+      "incidents": 19,
+      "arrests": 7,
+      "arrest_rate": 0.3684210526315789
+    },
+    {
+      "primary_type": "RITUALISM",
+      "incidents": 1,
+      "arrests": 0,
+      "arrest_rate": 0.0
+    }
+  ],
+  "window": {
+    "start": "2020-01-01",
+    "end_exclusive": "2026-11-01",
+    "comparison_months": 10,
+    "last_year": 2026
+  }
+}
