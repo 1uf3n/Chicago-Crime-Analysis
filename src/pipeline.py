@@ -89,20 +89,14 @@ def analyze(db,cfg):
     if end.day != 1: raise ValueError('Use an exclusive first-of-month cutoff')
     last_year=end.year if end.month>1 else end.year-1
     months=end.month-1 if end.month>1 else 12
-    common=f'month <= {months}'
-    queries={
-      'annual':f'SELECT year,count(*) incidents,sum(arrest) arrests FROM crimes WHERE {common} GROUP BY year ORDER BY year',
-      'category_year':f'SELECT year,primary_type,count(*) incidents,sum(arrest) arrests FROM crimes WHERE {common} GROUP BY year,primary_type ORDER BY year,primary_type',
-      'monthly':'SELECT year,month,count(*) incidents FROM crimes GROUP BY year,month ORDER BY year,month',
-      'time':'SELECT weekday,hour,count(*) incidents FROM crimes GROUP BY weekday,hour ORDER BY weekday,hour',
-      'season':f'SELECT season,count(*) incidents FROM crimes WHERE year < {last_year} GROUP BY season ORDER BY season',
-      'areas':'SELECT community_area,count(*) incidents,sum(arrest) arrests,1.0*sum(arrest)/count(*) arrest_rate FROM crimes GROUP BY community_area ORDER BY incidents DESC',
-      'categories':'SELECT primary_type,count(*) incidents,sum(arrest) arrests,1.0*sum(arrest)/count(*) arrest_rate FROM crimes GROUP BY primary_type ORDER BY incidents DESC'}
+    parameters={'comparison_months':months, 'last_year':last_year}
+    query_names=('annual','category_year','monthly','time','season','areas','categories')
+    queries={name:(ROOT/'sql'/f'{name}.sql').read_text() for name in query_names}
     out={}
     with sqlite3.connect(db) as c:
         c.row_factory=sqlite3.Row
         for name,q in queries.items():
-            rows=[dict(r) for r in c.execute(q)]; out[name]=rows
+            rows=[dict(r) for r in c.execute(q,parameters)]; out[name]=rows
             with (ROOT/'reports'/f'{name}.csv').open('w',newline='') as f:
                 writer=csv.DictWriter(f,fieldnames=list(rows[0])); writer.writeheader(); writer.writerows(rows)
     # Normalize season counts by actual calendar days in complete years.

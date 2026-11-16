@@ -1,0 +1,8 @@
+services:
+  pipeline:
+    build: .
+    volumes:
+      - ./data:/project/data
+      - ./reports:/project/reports
+    environment:
+      SOCRATA_APP_TOKEN: ${SOCRATA_APP_TOKEN:-}

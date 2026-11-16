@@ -17,6 +17,20 @@ On Windows use `python` instead of `python3`. The full download can take several
 
 Open **reports/dashboard.html** directly in a browser. It works offline and includes eight charts, including the community choropleth. Hover over map polygons for names and counts. Prepared results are included, so you can inspect findings before downloading data.
 
+## Classroom requirements and Docker
+
+All four board topics are covered: **API ingestion, GitHub + Docker infrastructure, SQL manipulation, and visualization**. See [the evidence checklist](docs/CLASS_REQUIREMENTS.md) for the exact files and a short class demo.
+
+With Docker running:
+
+```bash
+docker compose build
+docker compose run --rm pipeline python -m unittest discover -s tests -v
+docker compose run --rm pipeline
+```
+
+The database and reports persist in local `data/` and `reports/`. See [Docker instructions](docs/DOCKER.md) for offline replay and [SQL documentation](sql/README.md) for runnable queries. Python-only execution above remains supported. CI runs tests and builds the Docker image; no scheduled live refresh is configured.
+
 ## Exact offline replay
 
 The separate `chicago-crime-snapshot.zip` delivery contains the frozen raw snapshot. Extract it into the repository root so that `data/raw/snapshot-2026-11-10/manifest.json` exists, then run:
@@ -39,9 +53,10 @@ Replay checks every raw page's SHA-256, rebuilds SQLite, reruns SQL and recreate
 - `config/project.json`: fixed API endpoints, interval and page size
 - `reports/`: prepared aggregate CSV/JSON, charts, run timings and findings
 - `docs/`: architecture, methodology, data dictionary and presentation guide
-- `presentation/`: final PowerPoint and timed speaker script
-- `.github/workflows/ci.yml`: automated tests
-- `.github/workflows/etl.yml`: manual and monthly ETL, with downloadable workflow artifacts
+- `presentation/`: final PowerPoint
+- `sql/`: seven executable SQL queries used directly by the pipeline
+- `Dockerfile` and `compose.yaml`: container runtime with persistent outputs
+- `.github/workflows/ci.yml`: Python tests, Compose validation and Docker build/tests
 
 ## Database queries
 
@@ -63,7 +78,7 @@ The runtime needs only Python's standard library. The Dockerfile fixes the Pytho
 
 Project repository: https://github.com/1uf3n/Chicago-Crime-Analysis
 
-Download or clone this repository, then follow the quick-start commands above. The PowerPoint and timed speaker script are in `presentation/`.
+Download or clone this repository, then follow the quick-start commands above. The PowerPoint is in `presentation/`.
 
 The frozen raw snapshot is distributed separately as `chicago-crime-snapshot.zip`. It is not stored in ordinary Git, and a GitHub Release asset has not yet been published. Use the separately provided archive for exact offline replay, or run the API extraction for a fresh dataset.
 
