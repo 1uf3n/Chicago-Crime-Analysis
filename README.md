@@ -17,9 +17,9 @@ On Windows use `python` instead of `python3`. The full download can take several
 
 Open **reports/dashboard.html** directly in a browser. It works offline and includes eight charts, including the community choropleth. Hover over map polygons for names and counts. Prepared results are included, so you can inspect findings before downloading data.
 
-## Classroom requirements and Docker
+## Classroom requirements
 
-All four board topics are covered: **API ingestion, GitHub + Docker infrastructure, SQL manipulation, and visualization**. See [the evidence checklist](docs/CLASS_REQUIREMENTS.md) for the exact files and a short class demo.
+All four topics are covered: **API ingestion, GitHub + Docker infrastructure, SQL manipulation, and visualization**. See [the evidence checklist](docs/Requirements.md) for the exact files.
 
 With Docker running:
 
