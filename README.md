@@ -6,7 +6,7 @@ An end-to-end, dependency-free Python pipeline: Chicago's public API → compres
 
 ## Quick start
 
-Requires Python **3.9 or newer**, internet for a fresh extraction, and approximately 2 GB free disk space. No pip installation or API secret is required. Run commands from this repository's root.
+Requires Python **3.9 or newer**, internet for a fresh extraction, and approximately 2 GB of free disk space. No pip installation or API secret is required. Run commands from this repository's root.
 
 ```bash
 python3 -m unittest discover -s tests -v
@@ -19,7 +19,7 @@ Open **reports/dashboard.html** directly in a browser. It works offline and incl
 
 ## Classroom requirements
 
-All four topics are covered: **API ingestion, GitHub + Docker infrastructure, SQL manipulation, and visualization**. See [the evidence checklist](docs/Requirements.md) for the exact files.
+All four topics are covered: **API ingestion, GitHub + Docker infrastructure, SQL manipulation, and visualization**.
 
 With Docker running:
 
