@@ -9,8 +9,9 @@ These are the actual SQL files executed by `src/pipeline.py:analyze`, not duplic
 | monthly.sql | Calendar grouping | Monthly counts |
 | time.sql | Weekday/hour grouping | Temporal heatmap |
 | season.sql | Filter complete years | Seasonal counts |
-| areas.sql | NULL grouping, numeric division | Community counts and arrest shares |
+| areas.sql | LEFT JOIN to `community_areas`, NULL grouping, numeric division | Community names, counts and arrest shares |
 | categories.sql | Aggregation and calculated ratio | Category arrest shares |
+| domestic.sql | Equal-month filter, calculated ratio | Domestic-flag share by year |
 
 Run the pipeline first to create `data/crimes.sqlite`. Example using Python, with no SQLite CLI dependency:
 

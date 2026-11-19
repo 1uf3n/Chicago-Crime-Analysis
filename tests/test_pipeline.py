@@ -1,9 +1,10 @@
 import sys,unittest,tempfile,json,gzip,sqlite3
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
-from pipeline import clean,load,digest,DAG,request
+from pipeline import clean,load,validate,digest,DAG,request
 from unittest.mock import patch
 import urllib.error
+BOUNDARIES=[{'area_num_1':str(n),'community':f'AREA {n}'} for n in range(1,78)]
 class PipelineTests(unittest.TestCase):
     def row(self):return dict(id='123',date='2024-02-29T23:30:00',primary_type='THEFT',arrest=False,domestic=True,community_area='0',latitude='0',longitude='0')
     def test_leap_day_and_nulls(self):
@@ -15,6 +16,7 @@ class PipelineTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d);f=p/'page.json.gz'
             with gzip.open(f,'wt') as h:json.dump([self.row()],h)
+            (p/'boundaries.json').write_text(json.dumps(BOUNDARIES))
             (p/'manifest.json').write_text(json.dumps({'pages':[{'file':f.name,'sha256':digest(f)}]}))
             db=p/'db.sqlite';cfg={'start':'2020-01-01','end':'2026-11-01'}
             load(p,db,cfg);load(p,db,cfg)
@@ -29,6 +31,22 @@ class PipelineTests(unittest.TestCase):
         with patch('pipeline.urllib.request.urlopen', side_effect=urllib.error.HTTPError('url',400,'bad query',{},None)) as call:
             with self.assertRaises(urllib.error.HTTPError):request('https://example.com')
             self.assertEqual(call.call_count,1)
+    def test_normalized_schema_and_foreign_keys(self):
+        with tempfile.TemporaryDirectory() as d:
+            p=Path(d);f=p/'page.json.gz';row=self.row();row['community_area']='25'
+            with gzip.open(f,'wt') as h:json.dump([row],h)
+            (p/'boundaries.json').write_text(json.dumps(BOUNDARIES))
+            (p/'manifest.json').write_text(json.dumps({'pages':[{'file':f.name,'sha256':digest(f)}]}))
+            db=p/'db.sqlite';load(p,db,{'start':'2020-01-01','end':'2026-11-01'})
+            with patch('pipeline.dump'):
+                self.assertEqual(validate(db,{'count':1})['rows'],1)
+            with sqlite3.connect(db) as c:
+                self.assertEqual(c.execute('select count(*) from community_areas').fetchone()[0],77)
+                self.assertEqual(c.execute('select a.name from crimes c join community_areas a on a.area_num=c.community_area').fetchone()[0],'Area 25')
+                self.assertEqual(c.execute('select primary_type from crime_types').fetchall(),[('THEFT',)])
+                c.execute('insert into crimes(id,date,primary_type,arrest,domestic) values(999,"2024-01-01","UNKNOWN TYPE",0,0)')
+            with patch('pipeline.dump'), self.assertRaises(AssertionError):
+                validate(db,{'count':2})
     def test_dag_order(self):
         seen=set()
         for task,deps in DAG.items():self.assertTrue(set(deps)<=seen);seen.add(task)
