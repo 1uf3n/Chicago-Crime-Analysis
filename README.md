@@ -33,13 +33,27 @@ The database and reports persist in local `data/` and `reports/`. See [Docker in
 
 ## Exact offline replay
 
-The separate `chicago-crime-snapshot.zip` delivery contains the frozen raw snapshot. Extract it into the repository root so that `data/raw/snapshot-2026-11-10/manifest.json` exists, then run:
+The frozen snapshot is publicly available in the [snapshot release](https://github.com/1uf3n/Chicago-Crime-Analysis/releases/tag/snapshot-2026-11-10). Download these files:
+
+- [chicago-crime-snapshot.zip](https://github.com/1uf3n/Chicago-Crime-Analysis/releases/download/snapshot-2026-11-10/chicago-crime-snapshot.zip) — 1,620,720 records in 33 API pages, community boundaries and the extraction manifest.
+- [SHA256SUMS.txt](https://github.com/1uf3n/Chicago-Crime-Analysis/releases/download/snapshot-2026-11-10/SHA256SUMS.txt) — checksum for the complete ZIP.
+- For the matching code version, use **Source code (zip)** on the release page.
+
+Extract the source code and place both downloaded assets in its project root. Verify and extract the snapshot, then replay:
 
 ```bash
+# macOS checksum verification (Linux: sha256sum -c SHA256SUMS.txt)
+shasum -a 256 -c SHA256SUMS.txt
+python3 -m zipfile -e chicago-crime-snapshot.zip .
+python3 -m unittest discover -s tests -v
 python3 src/pipeline.py --snapshot data/raw/snapshot-2026-11-10
 ```
 
-Replay checks every raw page's SHA-256, rebuilds SQLite, reruns SQL and recreates charts without internet. It replaces `data/crimes.sqlite` only after a successful load. Repeated replay does not duplicate records. Reports and metrics are regenerated. Retain the snapshot ZIP as a GitHub Release asset or in durable object storage, not ordinary Git. The snapshot is essential for exact historical reproduction. A future live API pull can yield revised results.
+On Windows, use `python` instead of `python3`; run `Get-FileHash chicago-crime-snapshot.zip -Algorithm SHA256` and compare the hash with `SHA256SUMS.txt`. The ZIP extracts to `data/raw/snapshot-2026-11-10/manifest.json` and its accompanying files.
+
+Download the assets and source code while online. Afterward, replay requires **no API access or third-party Python packages**. It validates each raw page's SHA-256, rebuilds SQLite, reruns SQL, and recreates charts. The eight tests and full replay were verified against the release's source commit, and the regenerated analysis matched the committed results.
+
+Replay replaces `data/crimes.sqlite` only after a successful load. Repeated replay does not duplicate records. Reports and metrics are regenerated. Preserve the source code ZIP, snapshot and checksum together for long-term reproduction, rather than relying on continued API or hosting availability. A future live API pull can yield revised results.
 
 ## Scope and comparisons
 
@@ -80,7 +94,7 @@ Project repository: https://github.com/1uf3n/Chicago-Crime-Analysis
 
 Download or clone this repository, then follow the quick-start commands above. The PowerPoint is in `presentation/`.
 
-The frozen raw snapshot is distributed separately as `chicago-crime-snapshot.zip`. It is not stored in ordinary Git, and a GitHub Release asset has not yet been published. Use the separately provided archive for exact offline replay, or run the API extraction for a fresh dataset.
+The frozen raw snapshot and its checksum are published as [GitHub Release assets](https://github.com/1uf3n/Chicago-Crime-Analysis/releases/tag/snapshot-2026-11-10), outside ordinary Git. Use the instructions above for exact offline replay, or run the API extraction for a fresh dataset.
 
 ## Sources and attribution
 
