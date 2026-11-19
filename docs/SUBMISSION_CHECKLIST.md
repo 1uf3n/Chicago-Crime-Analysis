@@ -3,7 +3,7 @@
 | Assignment requirement | Implemented evidence |
 |---|---|
 | Read data from an API | `src/pipeline.py:request` and `extract`, actual frozen API pages |
-| Store API data in a database | Staged SQLite `crimes` table with types, primary key and indices |
+| Store API data in a database | Staged, normalized SQLite: `crimes` fact table plus `crime_types` and `community_areas` dimensions, primary/foreign keys, checks and indices |
 | DAG measures start to finish | Executable `DAG`, task durations/status in `reports/run.json` |
 | Easy-to-run repository | Standard-library Python, README commands, Dockerfile, automated tests |
 | Exploratory analysis and insights | SQL aggregation tables, eight SVG figures, offline dashboard, findings |
