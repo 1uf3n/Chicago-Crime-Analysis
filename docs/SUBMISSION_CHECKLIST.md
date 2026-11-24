@@ -13,7 +13,7 @@
 Before class:
 
 1. Upload the repository files to your team's GitHub account. The ZIP excludes raw pages and the generated SQLite database from ordinary version control.
-2. Upload the snapshot ZIP as a GitHub Release asset. Preserve the SHA256SUMS file with it.
+2. The [snapshot ZIP and SHA256SUMS.txt are published](https://github.com/1uf3n/Chicago-Crime-Analysis/releases/tag/snapshot-2026-11-10). Verify both downloads before class.
 3. Update the README with the actual repository and release links.
 4. Run the tests on the computer used for class and open the PowerPoint there to check fonts and chart appearance.
 5. Rehearse the five two-minute sections (Rebecca 1–3, Wangying 4–7, Yinuo 8–10, Zhiyi 11–14, Hongcheng 15–18). Keep the browser dashboard open as a backup.

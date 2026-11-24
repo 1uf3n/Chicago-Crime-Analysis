@@ -19,9 +19,9 @@ Compose bind-mounts local `data/` and `reports/` into the container, creating th
 
 An application token is optional. Set `SOCRATA_APP_TOKEN` in your shell before running Compose. Do not put a token into source code or commit it.
 
-## Replay the separately supplied snapshot offline
+## Replay the published snapshot offline
 
-Extract `chicago-crime-snapshot.zip` into the repository root first, then run:
+Download `chicago-crime-snapshot.zip` and `SHA256SUMS.txt` from the [snapshot release](https://github.com/1uf3n/Chicago-Crime-Analysis/releases/tag/snapshot-2026-11-10). Follow the README checksum instructions, then extract the ZIP into the repository root and run:
 
 ```bash
 docker compose run --rm pipeline python src/pipeline.py --snapshot data/raw/snapshot-2026-11-10
