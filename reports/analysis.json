@@ -2623,468 +2623,546 @@
   "areas": [
     {
       "community_area": 25,
+      "community_name": "Austin",
       "incidents": 84214,
       "arrests": 14849,
       "arrest_rate": 0.17632460161018357
     },
     {
       "community_area": 8,
+      "community_name": "Near North Side",
       "incidents": 68984,
       "arrests": 10047,
       "arrest_rate": 0.1456424678186246
     },
     {
       "community_area": 28,
+      "community_name": "Near West Side",
       "incidents": 63548,
       "arrests": 6703,
       "arrest_rate": 0.1054793227166866
     },
     {
       "community_area": 43,
+      "community_name": "South Shore",
       "incidents": 56104,
       "arrests": 6371,
       "arrest_rate": 0.11355696563524882
     },
     {
       "community_area": 32,
+      "community_name": "Loop",
       "incidents": 52232,
       "arrests": 9678,
       "arrest_rate": 0.1852887119007505
     },
     {
       "community_area": 24,
+      "community_name": "West Town",
       "incidents": 47142,
       "arrests": 3864,
       "arrest_rate": 0.08196512663866616
     },
     {
       "community_area": 29,
+      "community_name": "North Lawndale",
       "incidents": 45927,
       "arrests": 11095,
       "arrest_rate": 0.24157902758725805
     },
     {
       "community_area": 23,
+      "community_name": "Humboldt Park",
       "incidents": 44418,
       "arrests": 11382,
       "arrest_rate": 0.25624746724300956
     },
     {
       "community_area": 71,
+      "community_name": "Auburn Gresham",
       "incidents": 43329,
       "arrests": 5899,
       "arrest_rate": 0.13614438366913614
     },
     {
       "community_area": 69,
+      "community_name": "Greater Grand Crossing",
       "incidents": 42225,
       "arrests": 6240,
       "arrest_rate": 0.1477797513321492
     },
     {
       "community_area": 6,
+      "community_name": "Lake View",
       "incidents": 39341,
       "arrests": 3486,
       "arrest_rate": 0.08860984723316642
     },
     {
       "community_area": 49,
+      "community_name": "Roseland",
       "incidents": 38892,
       "arrests": 6058,
       "arrest_rate": 0.15576468168260824
     },
     {
       "community_area": 44,
+      "community_name": "Chatham",
       "incidents": 38847,
       "arrests": 5194,
       "arrest_rate": 0.13370401832831363
     },
     {
       "community_area": 68,
+      "community_name": "Englewood",
       "incidents": 33782,
       "arrests": 5717,
       "arrest_rate": 0.16923213545675211
     },
     {
       "community_area": 66,
+      "community_name": "Chicago Lawn",
       "incidents": 33594,
       "arrests": 4983,
       "arrest_rate": 0.14833005893909626
     },
     {
       "community_area": 67,
+      "community_name": "West Englewood",
       "incidents": 32844,
       "arrests": 5795,
       "arrest_rate": 0.17644014127390087
     },
     {
       "community_area": 22,
+      "community_name": "Logan Square",
       "incidents": 30713,
       "arrests": 3702,
       "arrest_rate": 0.12053527822094878
     },
     {
       "community_area": 19,
+      "community_name": "Belmont Cragin",
       "incidents": 28766,
       "arrests": 4317,
       "arrest_rate": 0.1500730028505875
     },
     {
       "community_area": 26,
+      "community_name": "West Garfield Park",
       "incidents": 27449,
       "arrests": 7953,
       "arrest_rate": 0.28973733105031146
     },
     {
       "community_area": 3,
+      "community_name": "Uptown",
       "incidents": 26926,
       "arrests": 3353,
       "arrest_rate": 0.12452647998217337
     },
     {
       "community_area": 46,
+      "community_name": "South Chicago",
       "incidents": 26646,
       "arrests": 3121,
       "arrest_rate": 0.11712827441266982
     },
     {
       "community_area": 1,
+      "community_name": "Rogers Park",
       "incidents": 26392,
       "arrests": 3814,
       "arrest_rate": 0.1445134889360412
     },
     {
       "community_area": 30,
+      "community_name": "South Lawndale",
       "incidents": 26249,
       "arrests": 4723,
       "arrest_rate": 0.1799306640252962
     },
     {
       "community_area": 61,
+      "community_name": "New City",
       "incidents": 26227,
       "arrests": 4264,
       "arrest_rate": 0.1625805467647844
     },
     {
       "community_area": 27,
+      "community_name": "East Garfield Park",
       "incidents": 26083,
       "arrests": 5150,
       "arrest_rate": 0.197446612736265
     },
     {
       "community_area": 7,
+      "community_name": "Lincoln Park",
       "incidents": 24881,
       "arrests": 1495,
       "arrest_rate": 0.06008600940476669
     },
     {
       "community_area": 53,
+      "community_name": "West Pullman",
       "incidents": 24117,
       "arrests": 3405,
       "arrest_rate": 0.1411867147655181
     },
     {
       "community_area": 2,
+      "community_name": "West Ridge",
       "incidents": 23813,
       "arrests": 2296,
       "arrest_rate": 0.09641792298324445
     },
     {
       "community_area": 42,
+      "community_name": "Woodlawn",
       "incidents": 23469,
       "arrests": 2970,
       "arrest_rate": 0.12654991691167072
     },
     {
       "community_area": 38,
+      "community_name": "Grand Boulevard",
       "incidents": 23291,
       "arrests": 2600,
       "arrest_rate": 0.11163110214245846
     },
     {
       "community_area": 15,
+      "community_name": "Portage Park",
       "incidents": 20494,
       "arrests": 3044,
       "arrest_rate": 0.14853127744705769
     },
     {
       "community_area": 77,
+      "community_name": "Edgewater",
       "incidents": 19990,
       "arrests": 2055,
       "arrest_rate": 0.10280140070035018
     },
     {
       "community_area": 73,
+      "community_name": "Washington Heights",
       "incidents": 19419,
       "arrests": 2492,
       "arrest_rate": 0.12832792625778877
     },
     {
       "community_area": 35,
+      "community_name": "Douglas",
       "incidents": 18595,
       "arrests": 2078,
       "arrest_rate": 0.11175047055660124
     },
     {
       "community_area": 31,
+      "community_name": "Lower West Side",
       "incidents": 18354,
       "arrests": 2238,
       "arrest_rate": 0.12193527296502125
     },
     {
       "community_area": 16,
+      "community_name": "Irving Park",
       "incidents": 16795,
       "arrests": 1640,
       "arrest_rate": 0.0976481095564156
     },
     {
       "community_area": 33,
+      "community_name": "Near South Side",
       "incidents": 15863,
       "arrests": 2223,
       "arrest_rate": 0.14013742671625795
     },
     {
       "community_area": 40,
+      "community_name": "Washington Park",
       "incidents": 15742,
       "arrests": 2006,
       "arrest_rate": 0.12742980561555076
     },
     {
       "community_area": 14,
+      "community_name": "Albany Park",
       "incidents": 15280,
       "arrests": 1858,
       "arrest_rate": 0.12159685863874345
     },
     {
       "community_area": 41,
+      "community_name": "Hyde Park",
       "incidents": 14833,
       "arrests": 860,
       "arrest_rate": 0.05797883098496595
     },
     {
       "community_area": 63,
+      "community_name": "Gage Park",
       "incidents": 14458,
       "arrests": 1954,
       "arrest_rate": 0.13515008991561764
     },
     {
       "community_area": 70,
+      "community_name": "Ashburn",
       "incidents": 14237,
       "arrests": 1044,
       "arrest_rate": 0.07333005548921824
     },
     {
       "community_area": 21,
+      "community_name": "Avondale",
       "incidents": 14108,
       "arrests": 1586,
       "arrest_rate": 0.1124184859654097
     },
     {
       "community_area": 58,
+      "community_name": "Brighton Park",
       "incidents": 14028,
       "arrests": 1714,
       "arrest_rate": 0.12218420302252637
     },
     {
       "community_area": 4,
+      "community_name": "Lincoln Square",
       "incidents": 13328,
       "arrests": 1330,
       "arrest_rate": 0.09978991596638656
     },
     {
       "community_area": 56,
+      "community_name": "Garfield Ridge",
       "incidents": 13317,
       "arrests": 1778,
       "arrest_rate": 0.13351355410377713
     },
     {
       "community_area": 75,
+      "community_name": "Morgan Park",
       "incidents": 12569,
       "arrests": 1604,
       "arrest_rate": 0.12761556209722333
     },
     {
       "community_area": 39,
+      "community_name": "Kenwood",
       "incidents": 12380,
       "arrests": 819,
       "arrest_rate": 0.0661550888529887
     },
     {
       "community_area": 51,
+      "community_name": "South Deering",
       "incidents": 12085,
       "arrests": 1425,
       "arrest_rate": 0.11791477037649979
     },
     {
       "community_area": 65,
+      "community_name": "West Lawn",
       "incidents": 11179,
       "arrests": 1189,
       "arrest_rate": 0.10636013954736559
     },
     {
       "community_area": 76,
+      "community_name": "Ohare",
       "incidents": 10958,
       "arrests": 2626,
       "arrest_rate": 0.2396422704873152
     },
     {
       "community_area": 17,
+      "community_name": "Dunning",
       "incidents": 10655,
       "arrests": 1029,
       "arrest_rate": 0.09657437822618489
     },
     {
       "community_area": 60,
+      "community_name": "Bridgeport",
       "incidents": 10470,
       "arrests": 1115,
       "arrest_rate": 0.10649474689589303
     },
     {
       "community_area": 48,
+      "community_name": "Calumet Heights",
       "incidents": 9237,
       "arrests": 873,
       "arrest_rate": 0.09451120493666774
     },
     {
       "community_area": 20,
+      "community_name": "Hermosa",
       "incidents": 9138,
       "arrests": 1307,
       "arrest_rate": 0.1430291092142701
     },
     {
       "community_area": 5,
+      "community_name": "North Center",
       "incidents": 8743,
       "arrests": 549,
       "arrest_rate": 0.06279309161615006
     },
     {
       "community_area": 52,
+      "community_name": "East Side",
       "incidents": 8424,
       "arrests": 868,
       "arrest_rate": 0.1030389363722697
     },
     {
       "community_area": 10,
+      "community_name": "Norwood Park",
       "incidents": 8092,
       "arrests": 691,
       "arrest_rate": 0.08539298072170044
     },
     {
       "community_area": 54,
+      "community_name": "Riverdale",
       "incidents": 7986,
       "arrests": 847,
       "arrest_rate": 0.10606060606060606
     },
     {
       "community_area": 45,
+      "community_name": "Avalon Park",
       "incidents": 7804,
       "arrests": 847,
       "arrest_rate": 0.10853408508457202
     },
     {
       "community_area": 34,
+      "community_name": "Armour Square",
       "incidents": 7424,
       "arrests": 941,
       "arrest_rate": 0.1267510775862069
     },
     {
       "community_area": 50,
+      "community_name": "Pullman",
       "incidents": 7077,
       "arrests": 1315,
       "arrest_rate": 0.18581319768263388
     },
     {
       "community_area": 64,
+      "community_name": "Clearing",
       "incidents": 7052,
       "arrests": 574,
       "arrest_rate": 0.08139534883720931
     },
     {
       "community_area": 11,
+      "community_name": "Jefferson Park",
       "incidents": 6769,
       "arrests": 788,
       "arrest_rate": 0.11641305953612055
     },
     {
       "community_area": 57,
+      "community_name": "Archer Heights",
       "incidents": 6445,
       "arrests": 641,
       "arrest_rate": 0.09945694336695113
     },
     {
       "community_area": 72,
+      "community_name": "Beverly",
       "incidents": 6318,
       "arrests": 596,
       "arrest_rate": 0.09433364988920545
     },
     {
       "community_area": 59,
+      "community_name": "Mckinley Park",
       "incidents": 6138,
       "arrests": 806,
       "arrest_rate": 0.13131313131313133
     },
     {
       "community_area": 62,
+      "community_name": "West Elsdon",
       "incidents": 6121,
       "arrests": 658,
       "arrest_rate": 0.1074987747100147
     },
     {
       "community_area": 13,
+      "community_name": "North Park",
       "incidents": 6070,
       "arrests": 531,
       "arrest_rate": 0.08747940691927512
     },
     {
       "community_area": 36,
+      "community_name": "Oakland",
       "incidents": 5326,
       "arrests": 416,
       "arrest_rate": 0.07810739767179872
     },
     {
       "community_area": 55,
+      "community_name": "Hegewisch",
       "incidents": 4716,
       "arrests": 368,
       "arrest_rate": 0.07803223070398643
     },
     {
       "community_area": 37,
+      "community_name": "Fuller Park",
       "incidents": 4582,
       "arrests": 839,
       "arrest_rate": 0.18310781318201658
     },
     {
       "community_area": 18,
+      "community_name": "Montclare",
       "incidents": 4264,
       "arrests": 408,
       "arrest_rate": 0.09568480300187618
     },
     {
       "community_area": 74,
+      "community_name": "Mount Greenwood",
       "incidents": 3594,
       "arrests": 357,
       "arrest_rate": 0.0993322203672788
     },
     {
       "community_area": 12,
+      "community_name": "Forest Glen",
       "incidents": 3466,
       "arrests": 209,
       "arrest_rate": 0.0603000577034045
     },
     {
       "community_area": null,
+      "community_name": null,
       "incidents": 2351,
       "arrests": 44,
       "arrest_rate": 0.01871544023819651
     },
     {
       "community_area": 47,
+      "community_name": "Burnside",
       "incidents": 2168,
       "arrests": 213,
       "arrest_rate": 0.09824723247232472
     },
     {
       "community_area": 9,
+      "community_name": "Edison Park",
       "incidents": 1833,
       "arrests": 140,
       "arrest_rate": 0.07637752318603383
@@ -3288,6 +3366,50 @@
       "incidents": 1,
       "arrests": 0,
       "arrest_rate": 0.0
+    }
+  ],
+  "domestic": [
+    {
+      "year": 2020,
+      "incidents": 179825,
+      "domestic": 39372,
+      "domestic_rate": 0.21894619769220075
+    },
+    {
+      "year": 2021,
+      "incidents": 175115,
+      "domestic": 40587,
+      "domestic_rate": 0.23177340604745453
+    },
+    {
+      "year": 2022,
+      "incidents": 199561,
+      "domestic": 38288,
+      "domestic_rate": 0.19186113519174589
+    },
+    {
+      "year": 2023,
+      "incidents": 221027,
+      "domestic": 39720,
+      "domestic_rate": 0.17970655168825528
+    },
+    {
+      "year": 2024,
+      "incidents": 220259,
+      "domestic": 40289,
+      "domestic_rate": 0.18291647560372107
+    },
+    {
+      "year": 2025,
+      "incidents": 202106,
+      "domestic": 38247,
+      "domestic_rate": 0.18924227880419187
+    },
+    {
+      "year": 2026,
+      "incidents": 195294,
+      "domestic": 37442,
+      "domestic_rate": 0.19172119983204808
     }
   ],
   "window": {
