@@ -51,7 +51,7 @@ python3 src/pipeline.py --snapshot data/raw/snapshot-2026-11-10
 
 On Windows, use `python` instead of `python3`; run `Get-FileHash chicago-crime-snapshot.zip -Algorithm SHA256` and compare the hash with `SHA256SUMS.txt`. The ZIP extracts to `data/raw/snapshot-2026-11-10/manifest.json` and its accompanying files.
 
-Download the assets and source code while online. Afterward, replay requires **no API access or third-party Python packages**. It validates each raw page's SHA-256, rebuilds SQLite, reruns SQL, and recreates charts. The eight tests and full replay were verified against the release's source commit, and the regenerated analysis matched the committed results.
+Download the assets and source code while online. Afterward, replay requires **no API access or third-party Python packages**. It validates each raw page's SHA-256, rebuilds SQLite, reruns SQL, and recreates charts. The eight tests and full replay were verified against the release's source commit, and the regenerated analysis matched the committed results. After the schema normalization, the ten current tests pass and replaying this snapshot reproduces every earlier aggregate exactly, with zero foreign-key violations; it also writes `reports/domestic.csv`.
 
 Replay replaces `data/crimes.sqlite` only after a successful load. Repeated replay does not duplicate records. Reports and metrics are regenerated. Preserve the source code ZIP, snapshot and checksum together for long-term reproduction, rather than relying on continued API or hosting availability. A future live API pull can yield revised results.
 
