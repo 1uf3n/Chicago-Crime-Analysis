@@ -15,7 +15,7 @@ python3 src/pipeline.py
 
 On Windows use `python` instead of `python3`. The full download can take several minutes or longer depending on API load. Requests retry transient failures six times. Optional: set `SOCRATA_APP_TOKEN` to your own Socrata application token to improve throttling limits. Never commit the token.
 
-Open **reports/dashboard.html** directly in a browser. It works offline and includes eight charts, including the community choropleth. Hover over map polygons for names and counts. Prepared results are included, so you can inspect findings before downloading data.
+Open **reports/dashboard.html** directly in a browser. It works offline and includes ten charts, including the community choropleth. Hover over map polygons for names and counts. Prepared results are included, so you can inspect findings before downloading data.
 
 ## Classroom requirements
 
@@ -51,7 +51,7 @@ python3 src/pipeline.py --snapshot data/raw/snapshot-2026-11-10
 
 On Windows, use `python` instead of `python3`; run `Get-FileHash chicago-crime-snapshot.zip -Algorithm SHA256` and compare the hash with `SHA256SUMS.txt`. The ZIP extracts to `data/raw/snapshot-2026-11-10/manifest.json` and its accompanying files.
 
-Download the assets and source code while online. Afterward, replay requires **no API access or third-party Python packages**. It validates each raw page's SHA-256, rebuilds SQLite, reruns SQL, and recreates charts. The eight tests and full replay were verified against the release's source commit, and the regenerated analysis matched the committed results.
+Download the assets and source code while online. Afterward, replay requires **no API access or third-party Python packages**. It validates each raw page's SHA-256, rebuilds SQLite, reruns SQL, and recreates charts. The eight tests and full replay were verified against the release's source commit, and the regenerated analysis matched the committed results. After the schema normalization, the ten current tests pass and replaying this snapshot reproduces every earlier aggregate exactly, with zero foreign-key violations; it also writes `reports/domestic.csv`.
 
 Replay replaces `data/crimes.sqlite` only after a successful load. Repeated replay does not duplicate records. Reports and metrics are regenerated. Preserve the source code ZIP, snapshot and checksum together for long-term reproduction, rather than relying on continued API or hosting availability. A future live API pull can yield revised results.
 
@@ -68,9 +68,22 @@ Replay replaces `data/crimes.sqlite` only after a successful load. Repeated repl
 - `reports/`: prepared aggregate CSV/JSON, charts, run timings and findings
 - `docs/`: architecture, methodology, data dictionary and presentation guide
 - `presentation/`: final PowerPoint
-- `sql/`: seven executable SQL queries used directly by the pipeline
+- `sql/`: eight executable SQL queries used directly by the pipeline
 - `Dockerfile` and `compose.yaml`: container runtime with persistent outputs
 - `.github/workflows/ci.yml`: Python tests, Compose validation and Docker build/tests
+
+## Database schema
+
+`data/crimes.sqlite` is normalized into one fact table and two dimension tables:
+
+| Table | Grain | Keys |
+|---|---|---|
+| `crimes` | One row per source record ID | `id` primary key; `primary_type` → `crime_types`; `community_area` → `community_areas` |
+| `crime_types` | One row per source category | `type_id` primary key; `primary_type` unique |
+| `community_areas` | One row per official community area (77) | `area_num` primary key; `name` unique |
+| `metadata` | Key/value provenance | Stores the frozen snapshot manifest |
+
+Validation runs `PRAGMA foreign_key_check` and fails the DAG if any record points to an unknown category or community. Unknown community codes stay NULL, which the foreign key allows. See the [data dictionary](docs/DATA_DICTIONARY.md).
 
 ## Database queries
 

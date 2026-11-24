@@ -57,13 +57,40 @@ def clean(r):
     season=('Winter','Spring','Summer','Autumn')[(date.month%12)//3]
     return (i,date.isoformat(),typ,r.get('description'),int(r['arrest']),int(r['domestic']),area,lat,lon,r.get('updated_on'),date.year,date.month,date.weekday(),date.hour,season)
 
+# Normalized schema: two dimension tables plus the fact table that references them.
+SCHEMA = """
+CREATE TABLE community_areas(
+    area_num INTEGER PRIMARY KEY CHECK(area_num BETWEEN 1 AND 77),
+    name TEXT NOT NULL UNIQUE);
+CREATE TABLE crime_types(
+    type_id INTEGER PRIMARY KEY,
+    primary_type TEXT NOT NULL UNIQUE);
+CREATE TABLE crimes(
+    id INTEGER PRIMARY KEY,
+    date TEXT NOT NULL,
+    primary_type TEXT NOT NULL REFERENCES crime_types(primary_type),
+    description TEXT,
+    arrest INTEGER NOT NULL CHECK(arrest IN(0,1)),
+    domestic INTEGER NOT NULL CHECK(domestic IN(0,1)),
+    community_area INTEGER REFERENCES community_areas(area_num),
+    latitude REAL, longitude REAL, updated_on TEXT,
+    year INTEGER, month INTEGER, weekday INTEGER, hour INTEGER, season TEXT);
+CREATE TABLE metadata(key TEXT PRIMARY KEY, value TEXT);
+"""
+
+def community_areas(raw):
+    """Area number and title-cased name for the 77 official community areas."""
+    bounds = json.loads((raw/'boundaries.json').read_text())
+    return sorted((int(r['area_num_1']), r['community'].title()) for r in bounds)
+
 def load(raw,db,cfg):
     manifest=json.loads((raw/'manifest.json').read_text())
     if 'config' in manifest and manifest['config'] != cfg: raise ValueError('Replay configuration must match snapshot manifest')
     if 'boundary_sha256' in manifest and digest(raw/'boundaries.json') != manifest['boundary_sha256']: raise ValueError('Boundary checksum mismatch')
     stage=db.with_suffix('.building.sqlite'); stage.unlink(missing_ok=True)
     con=sqlite3.connect(stage)
-    con.executescript('''CREATE TABLE crimes(id INTEGER PRIMARY KEY,date TEXT NOT NULL,primary_type TEXT NOT NULL,description TEXT,arrest INTEGER NOT NULL CHECK(arrest IN(0,1)),domestic INTEGER NOT NULL CHECK(domestic IN(0,1)),community_area INTEGER,latitude REAL,longitude REAL,updated_on TEXT,year INTEGER,month INTEGER,weekday INTEGER,hour INTEGER,season TEXT); CREATE TABLE metadata(key TEXT PRIMARY KEY,value TEXT);''')
+    con.executescript(SCHEMA)
+    con.executemany('INSERT INTO community_areas VALUES(?,?)', community_areas(raw))
     for page in manifest['pages']:
         p=raw/page['file']
         if digest(p)!=page['sha256']: raise ValueError('Snapshot checksum mismatch')
@@ -71,6 +98,8 @@ def load(raw,db,cfg):
         values=[clean(r) for r in rows]
         if any(not cfg['start']<=r[1][:10]<cfg['end'] for r in values): raise ValueError('Date outside scope')
         con.executemany('INSERT INTO crimes VALUES('+','.join(['?']*15)+')',values)
+    # Dimension table of source categories; crimes.primary_type references it.
+    con.execute('INSERT INTO crime_types(primary_type) SELECT DISTINCT primary_type FROM crimes ORDER BY primary_type')
     con.execute('INSERT INTO metadata VALUES(?,?)',('manifest',json.dumps(manifest)))
     con.executescript('CREATE INDEX idx_date ON crimes(date); CREATE INDEX idx_category ON crimes(primary_type); CREATE INDEX idx_area ON crimes(community_area);')
     con.commit(); con.close(); os.replace(stage,db)
@@ -80,6 +109,8 @@ def validate(db,manifest):
         n=c.execute('SELECT count(*) FROM crimes').fetchone()[0]
         assert n==manifest['count'], 'Row reconciliation failed'
         assert c.execute('PRAGMA integrity_check').fetchone()[0]=='ok'
+        assert not c.execute('PRAGMA foreign_key_check').fetchall(), 'Foreign-key check failed'
+        assert c.execute('SELECT count(*) FROM community_areas').fetchone()[0]==77, 'Expected 77 community areas'
         quality=dict(zip(['rows','unknown_area','missing_coordinates'],c.execute('SELECT count(*),sum(community_area IS NULL),sum(latitude IS NULL) FROM crimes').fetchone()))
     dump(ROOT/'reports/quality.json',quality); return quality
 
@@ -90,7 +121,7 @@ def analyze(db,cfg):
     last_year=end.year if end.month>1 else end.year-1
     months=end.month-1 if end.month>1 else 12
     parameters={'comparison_months':months, 'last_year':last_year}
-    query_names=('annual','category_year','monthly','time','season','areas','categories')
+    query_names=('annual','category_year','monthly','time','season','areas','categories','domestic')
     queries={name:(ROOT/'sql'/f'{name}.sql').read_text() for name in query_names}
     out={}
     with sqlite3.connect(db) as c:

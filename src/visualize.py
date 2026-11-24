@@ -1,5 +1,5 @@
 """Offline SVG charts and geographic choropleth without third-party dependencies."""
-import html,json,math
+import calendar,html,json,math
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -13,8 +13,8 @@ def bars(title,labels,values,fmt=lambda v:f'{v:,.0f}'):
     return svg(title,body,h=max(250,100+len(labels)*39))
 def build(a,raw):
     out=ROOT/'reports/figures';out.mkdir(exist_ok=True)
-    charts={}; annual=a['annual']; months=a['window']['comparison_months']
-    charts['annual']=bars(f'Reported incidents, January–month {months} each year',[r['year'] for r in annual],[r['incidents'] for r in annual])
+    charts={}; annual=a['annual']; months=a['window']['comparison_months']; period=f'January–{calendar.month_name[months]}'
+    charts['annual']=bars(f'Reported incidents, {period} each year',[r['year'] for r in annual],[r['incidents'] for r in annual])
     top=[r['primary_type'] for r in a['categories'][:5]]
     years=[r['year'] for r in annual]; vals={(r['year'],r['primary_type']):r['incidents'] for r in a['category_year']}
     colors=['#167d9a','#d36b32','#556cb5','#4f8665','#9a5085'];maximum=max(vals.get((y,t),0) for y in years for t in top); body=''
@@ -32,6 +32,13 @@ def build(a,raw):
     areas=[r for r in a['areas'] if r['community_area'] is not None]
     charts['areas']=bars('Largest community totals, entire extraction window',[names.get(r['community_area'],str(r['community_area'])) for r in areas[:10]],[r['incidents'] for r in areas[:10]])
     charts['area_arrests']=bars('Recorded arrest share, ten largest communities',[names.get(r['community_area'],str(r['community_area'])) for r in areas[:10]],[r['arrest_rate'] for r in areas[:10]],lambda v:f'{v:.1%}')
+    # Year-by-year shares over the same calendar months (equal exposure per year).
+    pct=lambda v:f'{v:.1%}'
+    charts['arrest_trend']=bars(f'Recorded arrest share by year, {period}',
+        [r['year'] for r in annual],[r['arrests']/r['incidents'] for r in annual],pct)
+    if 'domestic' in a:
+        charts['domestic_trend']=bars(f'Share of records flagged domestic, {period}',
+            [r['year'] for r in a['domestic']],[r['domestic_rate'] for r in a['domestic']],pct)
     peak=max(r['incidents'] for r in a['time']);body=''
     for h in range(24): body+=f'<text x="{115+h*34}" y="65">{h}</text>'
     for d,name in enumerate(['Mon','Tue','Wed','Thu','Fri','Sat','Sun']): body+=f'<text x="30" y="{100+d*51}">{name}</text>'
